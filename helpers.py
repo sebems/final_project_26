@@ -31,7 +31,34 @@ PREP_COLS_AND_TYPES = {
     "Description (Rendered no HTML)": str,
     "Prerequisite(s): (Rendered no HTML)": str,
     "Corequisite(s): (Rendered no HTML)": str,
-    "Is Active": str,
+    "Is Active": bool,
     "Program Usage": str,
     "Program OIDs": str,
 }
+
+PREP_PROGRAM_COLS = [
+    "Entity Name",
+    "Program OID",
+    "Program Type",
+    "Degree Type",
+    "Program Code",
+    "Program Name",
+    "Program Description",
+    "Structure",
+    "Is Active",
+]
+
+PREP_PROGRAM_COLS_AND_TYPES = {
+    "Entity Name": str,
+    "Program OID": str,
+    "Program Type": str,
+    "Degree Type": str,
+    "Program Code": str,
+    "Program Name": str,
+    "Program Description": str,
+    "Structure": str,
+    "Is Active": bool,
+}
+
+MAIN_DATA_PATH = "./data/Catalog Draft 26-27.csv"
+PROGRAM_DATA_PATH = "./data/Programs 26-27.csv"
