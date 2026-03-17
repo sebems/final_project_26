@@ -55,7 +55,23 @@ def main():
         course_df = course_df[course_df["Is Active"]]  # Filter out inactive courses
         program_df = program_df[program_df["Is Active"]]  # Filter out inactive programs
 
-    # st.table(course_df)
+    # TODO - Add filters for programs and let the filter function on the course dataframe
+    # make the filter a selectbox with the unique values from the "Program OID" column in the program dataframe. Then filter the course dataframe based on the selected program OID.
+
+    # TODO - Add a filter for the "When Offered:" column in the course dataframe. This should be a multiselect with the unique values from the "When Offered:" column in the course dataframe. Then filter the course dataframe based on the selected values.
+
+    # TODO - Add a filter for the "Credits:" column in the course dataframe. This should be a selectbox with the unique values from the "Credits:" column in the course dataframe. Then filter the course dataframe based on the selected value.
+
+    # TODO - Add an accordian for each course that shows the course description and prerequisites when clicked. This should be done using the "Course OID" column in the course dataframe to match the course description and prerequisites from the main dataframe.
+
+    # TODO - Core Requirements Section
+    # Foundations
+    # Competencies and Skills
+    # Knowledge and Understanding
+    # Cross-Disciplinary Integration
+
+    # TODO - Knowledge and Understanding Calculator
+    # TODO - Scale up the K&U calculator to be a general calculator for core requirements
     st.dataframe(program_df)
 
 
