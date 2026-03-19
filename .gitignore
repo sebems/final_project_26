@@ -3,4 +3,4 @@
 
 # Caches
 __pycache__
-__vscode__
+.vscode
