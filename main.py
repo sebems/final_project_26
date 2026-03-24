@@ -119,6 +119,7 @@ def main():
         ),
     )
 
+    print(programs, file=open("debug.txt", "w"), flush=True)
 
 if __name__ == "__main__":
     main()

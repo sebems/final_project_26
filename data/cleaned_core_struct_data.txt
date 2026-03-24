@@ -1,0 +1,511 @@
+Core Program
+- FOUNDATIONS
+	- Community and Commitments
+		* CORE 100 - Community and Commitments
+		* HNRS 110 - Honors Community and Commitments
+	- Foundations of Christianity I
+		* REL 121 - Biblical Literature and Theology
+		* REL 131 - Christian Theology
+		* HNRS 103 - Foundations in Biblical Literature and Theology
+	- Foundations of Christianity II
+		* ENGL 250 - Literature of Faith
+		* HIST 263 - Medieval and Renaissance Europe, 1000-1500
+		* HIST 264 - The Reformation in Historical Context (1500-1700)
+		* HNRS 203 - Intermediate Studies in Biblical Literature and Theology
+		* PHIL 224 - Glittering Vices: The Capital Vices and Christian Character
+		* PHIL 234 - Augustine's Confessions: A Map of the Heart
+		* PHIL 251 - Legacies of Thought: Ancient Philosophy and Medieval Christianity
+		* PHIL 252 - The Christian Foundations of Modernity
+		* PHIL 293 - God, Freedom, and Evil
+		* POLS 306 - God, Humanity, and the State
+		* REL 211 - From Creation to Promised Land
+		* REL 212 - From Conquest to Exile
+		* REL 213 - Psalms and Wisdom Literature
+		* REL 214 - Prophets
+		* REL 221 - Jesus in the Gospels and Acts
+		* REL 222 - The Gospel and Letters of John
+		* REL 223 - Paul's Letters
+		* REL 224 - Revelation and General Letters
+		* REL 230 - Revelation and Knowledge of God
+		* REL 231 - The Triune God
+		* REL 232 - Creation and Humanity
+		* REL 233 - Christ and Reconciliation
+		* REL 234 - Holy Spirit and Church
+		* REL 235 - The Christian Hope
+		* REL 237 - Christian Worship
+		* REL 243 - Theology: From the Early Church through the Middle Ages
+		* REL 244 - Theology: From the Reformation to the Present
+		* REL 251 - Christianity and Religious Plurality
+- COMPETENCIES AND SKILLS
+	- Foundational Writing
+		* ENGL 101 - Written Rhetoric 	(minimum grade of C)
+	Or
+		* ENGL 100 - Enhanced Written Rhetoric I 	And
+		* ENGL 102 - Enhanced Written Rhetoric II 	(two-course, full-year sequence, minimum grade of C)
+	- Health and Movement (Personal Fitness)
+		* PER 101 - Jogging and Road Racing
+		* PER 102 - Nordic Walking
+		* PER 103 - Cycling
+		* PER 104 - Core Strength Training and Balance
+		* PER 106 - Cardio Cross Training
+		* PER 107 - Strength and Conditioning
+		* PER 108 - Aquatic Fitness
+		* PER 112 - Special Topics in Personal Fitness
+	- Health and Movement (Leisure, Sport, and Skills)
+		* KIN 223 - Educational Health, Movement, and Dance
+		* PER 124 - Swim
+		* PER 130 - Women's Self Defense
+		* PER 132 - Golf Level I
+		* PER 133 - Golf Level II
+		* PER 137 - Bowling
+		* PER 138 - Backpacking I
+		* PER 140 - Special Topics: Lifetime and Leisure
+		* PER 141 - Rock Climbing I
+		* PER 142 - Rock Climbing II
+		* PER 143 - Paddling
+		* PER 144 - Frisbee
+		* PER 173 - Basketball
+		* PER 174 - Volleyball Level I
+		* PER 175 - Volleyball Level II
+		* PER 177 - Slow Pitch Softball
+		* PER 180 - Badminton Level I
+		* PER 181 - Badminton Level II
+		* PER 182 - Tennis Level I
+		* PER 183 - Tennis Level II
+		* PER 185 - Soccer
+	- World Languages I
+	One from
+		* CHIN 102 - Elementary Chinese II
+		* DUTC 102 - Elementary Dutch II
+		* FREN 102 - Elementary French II
+		* FREN 150 - Accelerated Elementary French
+		* GERM 102 - Elementary German II
+		* KOR 102 - Elementary Korean II
+		* LATN 102 - Elementary Latin II
+		* SPAN 102 - Elementary Spanish II
+		* SPAN 150 - Accelerated Elementary Spanish
+- KNOWLEDGE AND UNDERSTANDING
+	- World Languages II
+		* CHIN 201 - Intermediate Chinese I
+		* CHIN 202 - Intermediate Chinese II
+		* DUTC 201 - Intermediate Dutch I
+		* DUTC 202 - Intermediate Dutch II
+		* FREN 201 - Intermediate French I
+		* FREN 202 - Intermediate French II
+		* FREN 301 - Advanced French I: Sustainability in France
+		* GERM 201 - Intermediate German I
+		* GERM 202 - Intermediate German II
+		* GERM 301 - Advanced German Language and Culture
+		* KOR 201 - Intermediate Korean I
+		* KOR 202 - Intermediate Korean II
+		* SPAN 201 - Intermediate Spanish I
+		* SPAN 202 - Intermediate Spanish II
+		* SPAN 301 - Advanced Grammar, Composition and Conversation I
+	- Arts, Oral Rhetoric, Visual Rhetoric
+	Arts Education
+		* EDUC 210 - Music and Art in the Elementary Classroom
+	Creative Writing
+		* COMM 248 - Screenwriting
+		* ENGL 260 - The Craft of Writing
+		* ENGL 360 - Creative Writing: Nonfiction
+		* ENGL 361 - Creative Writing: Poetry
+		* ENGL 362 - Creative Writing: Fiction
+		* HNRS 211 - Honors Creative Writing
+	Oral and Visual Rhetoric
+		* ART 153 - Visual Culture
+		* COMM 101 - Oral Rhetoric
+		* COMM 141 - Visual Rhetoric
+		* COMM 200 - Advanced Oral Rhetoric
+		* HNRS 212 - Honors Rhetoric
+		* IDIS 102 - Oral Rhetoric for Engineers
+	Performing Arts
+		* HNRS 213 - Honors Performing Arts
+		* MUSC 100 - Music Theory Fundamentals in Global Context
+		* MUSC 103 - Understanding and Enjoying Music
+		* MUSC 106 - American Music
+		* MUSC 107 - World Music
+		* MUSC 117 - Jazz Band
+		* MUSC 131 - Campus Choir
+		* MUSC 141 - Capella
+		* MUSC 151 - Symphonic Band
+		* MUSC 161 - Wind Ensemble
+		* MUSC 171 - Orchestra
+		* MUSC 182 - Gospel Choir
+		* MUSC 191 - Women's Chorale
+		* MUSC 203 - Popular Music
+		* MUSC 236 - Music in Worship
+		* THTR 120 - Calvin Theatre Company
+		* THTR 203 - Introduction to Performance Studies
+		* THTR 323 - Acting
+	Visual Arts
+		* ARTH 121 - Late Medieval Art, 1250-1400
+		* ARTH 131 - Renaissance and Baroque Europe, 1400-1700
+		* ARTH 133 - 18th- and 19th-Century European Art
+		* ARTH 141 - Modern Art, 1900-1960
+		* ARTH 151 - Contemporary Art, 1960-2020
+		* ARTH 241 - Chinese Art History
+		* ARTH 243 - Japanese Art History
+		* ARTS 250 - Introduction to Drawing
+		* ARTS 251 - Introduction to Painting
+		* ARTS 254 - Introduction to Graphic Design
+		* ARTS 256 - Introduction to Photography
+		* ARTS 258 - Introduction to Ceramics
+		* COMM 145 - Introduction to Film and Media
+		* COMM 180 - Communicating with Digital Media
+		* COMM 190 - Media Production I
+		* COMM 255 - Documentary Film and Television
+		* FREN 375 - French Cinema
+		* HNRS 214 - Honors Visual Art
+	- Humanities
+	Classics
+		* CLAS 211 - Classical Literature
+		* CLAS 231 - Classical Mythology
+	Literature
+		* ENGL 200 - Introduction to Global Literature
+		* ENGL 205 - Special Topics
+		* ENGL 210 - Introduction to Early British Literature
+		* ENGL 215 - Introduction to Later British Literature
+		* ENGL 220 - Introduction to American Literature
+		* ENGL 230 - Introduction to Genre
+		* ENGL 235 - Major Text
+		* ENGL 300 - Advanced Studies in Global Literature
+		* ENGL 305 - Advanced Special Topics
+		* ENGL 310 - Advanced Studies in Early British Literature
+		* ENGL 315 - Advanced Studies in Later British Literature
+		* ENGL 320 - Advanced Studies in American Literature
+		* ENGL 352 - The Teaching of Adolescent Literature
+		* ENGL 330 - Advanced Studies in Genre
+		* ENGL 335 - Advanced Studies in a Major Author
+		* FREN 351 - French Culture I
+		* FREN 352 - French Culture II
+		* FREN 381 - Special Topics
+		* GERM 303 - Topics in German Literature
+		* HNRS 222 - Honors Literature
+		* SPAN 309 - Introduction to the Hispanic World II
+		* STBR 210 - Disciplinary course of the director
+	History
+		* HIST 151 - History of the West and the World I
+		* HIST 152 - History of the West and the World II
+		* HIST 153 - Explorations in World History
+		* HIST 203 - Reacting to the Past: History Role-Playing Game
+		* HIST 225 - England
+		* HIST 229 - Seminar in United States History
+		* HIST 233 - Modern Middle East
+		* HIST 242 - Africa and the World
+		* HIST 245 - East Asia to 1800
+		* HIST 250 - Native American History
+		* HIST 251 - Early America
+		* HIST 252 - America from Republic to Empire
+		* HIST 253 - Recent America
+		* HIST 255 - African-American History
+		* HIST 256 - Women and Gender in US History
+		* HIST 258 - US Military History
+		* HIST 259 - American Economic and Business History
+		* HIST 261 - Ancient Mediterranean
+		* HIST 262 - Early Medieval Worlds, 300-1000
+		* HIST 267 - Modern Europe
+		* HIST 271 - War and Society
+		* HIST 274 - Environmental History
+		* HIST 280 - Introduction to Archaeology
+		* HNRS 223 - Honors History
+		* IDIS 206 - Introduction to Medieval Studies
+		* IDIS 210 - Introduction to the Digital Humanities
+		* IDIS 240 - Introduction to Archaeology
+		* SPAN 308 - Introduction to the Hispanic World I
+	Philosophy
+		* HNRS 224 - Honors Philosophy
+		* PHIL 137 - Disability, Community, and Advocacy
+		* PHIL 139 - Neurodiversity and Philosophy of Disability
+		* PHIL 151 - Philosophical Explorations
+		* PHIL 153 - Fundamental Questions in Philosophy
+		* PHIL 205 - Ethics
+		* PHIL 207 - Justice and the Common Good: Studies in Political Philosophy
+		* PHIL 211 - Philosophy of Gender
+		* PHIL 212 - Ethical Dimensions of Health Care
+		* PHIL 218 - AI and You: Sex, Care, and War in an Age of Intelligent Bots
+		* PHIL 223 - Peaceable Kingdom
+		* PHIL 225 - Public Philosophy
+		* PHIL 233 - Philosophical Transformation
+		* PHIL 235 - I Long, Therefore I Am
+	Religion
+		* HNRS 225 - Honors Religion
+		* REL 255 - World Religions
+		* REL 261 - Christianity and Culture
+		* REL 262 - Social Justice from the Prophets to Jesus
+		* REL 263 - Theology, Beauty, and the Arts
+		* REL 353 - Islam
+		* REL 356 - Confucianism
+	Theory &amp; Criticism
+		* COMM 254 - Screen Storytelling: Theory and Criticism
+		* COMM 305 - Persuasion and Propaganda
+		* PHIL 202 - Philosophy, Politics, and Law
+		* POLS 110 - Foundations of Political Community
+		* POLS 240 - Freedom, Justice, and Political Authority
+		* POLS 242 - Philosophy, Politics, and Law
+	- Mathematical Sciences
+		* CS 100 - Creating Interactive Web Media
+		* CS 106 - Introduction to Scientific Computation and Modeling
+		* CS 108 - Introduction to Computing
+		* DATA 102 - Foundations of Data Science and Analytics
+		* ECON 243 - Introductory Econometrics
+		* HNRS 251 - Honors Computer Science
+		* MATH 100 - Mathematics in the Contemporary World
+		* MATH 132 - Calculus for Management, Life, and Social Sciences
+		* MATH 161 - Calculus: Modeling and Computation
+		* MATH 162 - Differential and Integral Calculus
+		* MATH 221 - The Real Number System and Methods for Elementary School Teachers
+		* POLS 253 - Introductory Econometrics
+		* PSYC 255 - Statistics and Research Design
+		* SOC 255 - Social Science Statistics
+		* SOWK 255 - Social Science Statistics
+		* STAT 143 - Introduction to Probability and Statistics
+		* STAT 145 - Biostatistics
+	- Natural Sciences
+	Physics &amp; Astronomy
+		* ASTR 110 - Planets, Stars, and Galaxies
+		* ASTR 111 - The Solar System
+		* ASTR 112 - Stars, Galaxies, and the Universe
+		* ASTR 201 - Astrophysical Black Holes
+		* ASTR 211 - Planetary and Stellar Astronomy
+		* HNRS 232 - Honors Physics and Astronomy
+		* PHYS 130 - Particles, Nuclei, and Astronomy
+		* PHYS 131 - Matter, Light, and Energy
+		* PHYS 133 - Introductory Physics: Mechanics and Gravity
+		* PHYS 212 - Inquiry-Based Physics
+		* PHYS 221 - General Physics
+		* PHYS 223 - Physics for the Health Sciences
+	Biology
+		* BIOL 113 - Contemporary Topics in Biology
+		* BIOL 115 - Essentials of Human Anatomy and Physiology
+		* BIOL 123 - Living Systems
+		* BIOL 141 - Cell Biology and Genetics for the Health Sciences
+		* BIOL 160 - Ecological and Evolutionary Systems
+		* BIOL 161 - Cellular and Genetic Systems
+		* HNRS 230 - Concepts and Methods in Science
+		* HNRS 233 - Honors Biology
+		* SCES 110 - Science and a Changing World
+	Chemistry
+		* CHEM 100 - The Molecular World
+		* CHEM 101 - General Chemistry I
+		* CHEM 103 - Accelerated General Chemistry
+		* CHEM 121 - Culinary Medicine
+		* CHEM 160 - Chemistry for the Health Sciences
+		* CHEM 171 - Chemistry, Policy, and the Future of Our Planet
+		* CHEM 172 - Water, Water, Water
+		* HNRS 234 - Honors Chemistry
+		* SCES 210 - Science Content and Processes
+	Geology &amp; Earth Sciences
+		* GEO 120 - Earth Systems
+		* GEO 151 - Introduction to Geology
+		* GEO 153 - Great Lakes Geology
+		* GEO 181 - First-Year Research in Earth Sciences: Dunes
+		* GEO 250 - Meteorology
+		* GEO 251 - Oceanography
+		* HNRS 235 - Honors Geology and Earth Science
+	- Social and Behavioral Sciences
+	Economics
+		* ECON 191 - Introduction to Economics
+		* ECON 221 - Principles of Microeconomics
+		* ECON 222 - Principles of Macroeconomics
+		* ECON 232 - Environmental Economics
+		* ECON 233 - Economics of Energy and Sustainability
+		* ECON 237 - Regional Economies of the World
+		* ECON 241 - Health Economics and Health Policy
+		* HNRS 241 - Honors Economics
+	Geography
+		* GEO 101 - People, Place, and Community
+		* GEO 110 - World Regional Geography
+		* HNRS 242 - Honors Geography
+	Linguistics
+		* ENGL 372 - Sociolinguistics and Issues in Language Education
+		* SPAN 341 - Spanish Phonology, Dialectology, and Sociolinguistics
+	Political Science
+		* HNRS 243 - Honors Political Science
+		* POLS 151 - Foundations of Social Research
+		* POLS 212 - Institutions and Politics of US Public Policy
+		* POLS 214 - Governments and Globalization
+		* POLS 217 - International Cooperation and Conflict
+		* POLS 219 - Institutions and Politics of US Foreign Policy
+		* POLS 224 - Contemporary Issues in Comparative Politics
+		* POLS 227 - Contemporary Issues in International Politics
+		* POLS 229 - Contemporary Issues in US Foreign Policy
+		* POLS 234 - The President and Congress
+		* POLS 237 - Political Parties and Interest Groups
+		* POLS 277 - Asian Politics
+		* POLS 279 - African Politics
+	Psychology
+		* EDUC 241 - Inclusive Teaching: Ability, Language, and Multicultural Education
+		* HNRS 244 - Honors Psychology
+		* PSYC 151 - Introductory Psychology: Perspectives on the Self
+	Sociology and Social Work
+		* EDUC 240 - The Social Context of Education
+		* HNRS 245 - Honors Sociology and Social Work
+		* SOC 130 - Introduction to Cultural Anthropology
+		* SOC 151 - Sociological Principles and Perspectives
+		* SOC 201 - Families
+		* SOC 202 - Urban Sociology
+		* SOC 203 - Sociology of Deviance
+		* SOC 250 - Diversity and Inequality in the United States
+		* SOC 301 - Gender and Sexuality in the United States
+		* SOC 303 - Criminology
+		* SOWK 240 - Introduction to Social Work and Social Welfare
+		* SOWK 250 - Diversity and Inequality in the United States
+- CROSS-DISCIPLINARY INTEGRATION
+	- Engaged Citizenship Commitments
+		- Diversity and Difference (Tag)
+			* ASC 140 - First-Generation Student Experience
+			* BUS 392 - Business Ethics
+			* COMM 141 - Visual Rhetoric
+			* EDUC 240 - The Social Context of Education
+			* FREN 361 - The Francophone World: Quebec
+			* GEO 101 - People, Place, and Community
+			* HIST 229 - Seminar in United States History
+			* HIST 250 - Native American History
+			* HIST 251 - Early America
+			* HIST 252 - America from Republic to Empire
+			* HIST 253 - Recent America
+			* HIST 255 - African-American History
+			* HIST 256 - Women and Gender in US History
+			* HIST 258 - US Military History
+			* HIST 356 - American Social and Cultural History
+			* IDIS 175 - Who Am I? Helping Professionals Grow Self-Awareness Abroad
+			* IDIS 232 - Cohorts Intensive: Common Good Collective Travel
+			* MIN 231 - Worship and Culture Worldwide
+			* MUSC 203 - Popular Music
+			* PHIL 137 - Disability, Community, and Advocacy
+			* PHIL 139 - Neurodiversity and Philosophy of Disability
+			* PHIL 207 - Justice and the Common Good: Studies in Political Philosophy
+			* PHIL 211 - Philosophy of Gender
+			* PHIL 225 - Public Philosophy
+			* PSYC 270 - Children at Risk
+			* PSYC 335 - Health Psychology
+			* PUBH 101 - Introduction to Public Health
+			* SOC 151 - Sociological Principles and Perspectives
+			* SOC 201 - Families
+			* SOC 250 - Diversity and Inequality in the United States
+			* SOC 301 - Gender and Sexuality in the United States
+			* SOC 303 - Criminology
+			* SOWK 240 - Introduction to Social Work and Social Welfare
+			* SOWK 250 - Diversity and Inequality in the United States
+			* SOWK 360 - Social Welfare Policy and Advocacy
+			* SPAN 310 - Hispanic Culture in the United States
+			* STDC 343 - Integrating Faith and Public Life
+		- Environmental Sustainability (Tag)
+			* BIOL 123 - Living Systems
+			* BIOL 160 - Ecological and Evolutionary Systems
+			* BIOL 345 - Ecosystem Ecology and Management
+			* BIOL 346 - Plant Taxonomy
+			* BIOL 364 - Global Health, Environment, and Sustainability
+			* BIOL 371 - Tropical Ecosystems: Conservation and Development in Belize
+			* BIOL 372 - Dutch Sustainability: Is Orange the New Green?
+			* CHEM 171 - Chemistry, Policy, and the Future of Our Planet
+			* CHEM 172 - Water, Water, Water
+			* CHEM 371 - Chemistry and Sustainability: Life Cycle of an Electric Car
+			* ECON 232 - Environmental Economics
+			* ECON 233 - Economics of Energy and Sustainability
+			* ENGR 306 - Principles of Environmental Engineering
+			* GEO 210 - Human Impacts on the Environment
+			* GEO 302 - Environmental Law
+			* FREN 301 - Advanced French I: Sustainability in France
+			* GEO 120 - Earth Systems
+			* GEO 151 - Introduction to Geology
+			* GEO 153 - Great Lakes Geology
+			* GEO 181 - First-Year Research in Earth Sciences: Dunes
+			* GEO 250 - Meteorology
+			* GEO 251 - Oceanography
+			* GEO 352 - Sustainable Communities
+			* HIST 274 - Environmental History
+			* HIST 280 - Introduction to Archaeology
+			* HNRS 230 - Concepts and Methods in Science
+			* IDIS 162 - Sustainability Action Workshop
+			* IDIS 184 - Introduction to Sustainability Challenges
+			* IDIS 212 - Global Health
+			* IDIS 237 - Cohorts Intensive: Sustainability Fellows Travel
+			* IDIS 240 - Introduction to Archaeology
+			* PHIL 223 - Peaceable Kingdom
+			* PHYS 131 - Matter, Light, and Energy
+			* SCES 110 - Science and a Changing World
+			* SCM 201 - Introduction to Operations and Supply Chain Management
+			* STCR 225 - Community in a Costa Rican Watershed
+		- Global Regions and Cultures (Tag)
+			* ARTH 241 - Chinese Art History
+			* ARTH 243 - Japanese Art History
+			* BIOL 371 - Tropical Ecosystems: Conservation and Development in Belize
+			* BUS 190 - Leadership in Kenya
+			* CORE 231 - Off-Campus Global Regions and Cultures
+			* ECON 237 - Regional Economies of the World
+			* ECON 337 - World Poverty and Economic Development
+			* EDUC 250 - Social Studies Inquiry
+			* ENGL 300 - Advanced Studies in Global Literature
+			* FREN 202 - Intermediate French II
+			* FREN 301 - Advanced French I: Sustainability in France
+			* FREN 302 - Advanced French II: Discovering the Arts
+			* FREN 320 - May Study Abroad
+			* FREN 363 - The Francophone World: North Africa
+			* GEO 110 - World Regional Geography
+			* GEO 230 - The Global Economy and Transforming Regions
+			* GERM 202 - Intermediate German II
+			* GERM 301 - Advanced German Language and Culture
+			* GERM 302 - German Cultures and Intercultural Studies
+			* GERM 303 - Topics in German Literature
+			* GERM 320 - German Studies Abroad
+			* HIST 225 - England
+			* HIST 233 - Modern Middle East
+			* HIST 242 - Africa and the World
+			* HIST 245 - East Asia to 1800
+			* HIST 261 - Ancient Mediterranean
+			* HIST 262 - Early Medieval Worlds, 300-1000
+			* HIST 267 - Modern Europe
+			* IDIS 212 - Global Health
+			* IDIS 220 - Chinese Medicine and Culture
+			* IDIS 231 - Cohorts Intensive: Arts Collective Travel
+			* MUSC 107 - World Music
+			* NURS 360 - Exploring Culture, Health, Faith, and Nursing
+			* POLS 224 - Contemporary Issues in Comparative Politics
+			* POLS 277 - Asian Politics
+			* POLS 279 - African Politics
+			* REL 353 - Islam
+			* SCM 311 - Global Supply Chain Practicum II
+			* SOC 130 - Introduction to Cultural Anthropology
+			* SOC 231 - Intercultural Communication
+			* SOWK 260 - Global Issues and Perspectives
+			* SPAN 202 - Intermediate Spanish II
+			* SPAN 302 - Advanced Grammar, Composition and Conversation II
+			* SPAN 306 - Culture and Society in the Spanish-Speaking World
+			* SPAN 307 - Engaging Hispanic Culture in Place
+			* SPAN 309 - Introduction to the Hispanic World II
+			* STBR 312 - Studies in British Culture
+			* STCR 225 - Community in a Costa Rican Watershed
+			* STHU 210 - Studies in Central European Culture
+	- Contemporary Challenges and Enduring Questions
+		* ARTH 320 - Classical Architecture from Antiquity to Now
+		* ARTH 330 - Art and Fashion
+		* BIOL 395 - Perspectives in Biology
+		* BIOL 396 - Perspectives in Medicine
+		* BUS 393 - Strategic Management
+		* MIN 372 - Congregations and the Common Good
+		* COMM 330 - Media and Society
+		* COMM 398 - Communication, Technology, and Society
+		* CS 384 - Perspectives on Computing
+		* EDUC 359 - Student Teaching Seminar
+		* ENGL 395 - Senior Seminar
+		* ENGR 340 - Senior Design Project
+		* GCS 391 - Leading through Change
+		* GEO 395 - Senior Seminar in Geology, Geography, and Environment
+		* HIST 358 - Mythologies of the Frontier West
+		* HIST 366 - The Use and Abuse of the Medieval Past
+		* IDIS 310 - Science in Society
+		* IDIS 312 - The Science and Art of Modern Medicine
+		* KIN 332 - Philosophy of Physical Education and Sport
+		* MATH 380 - Perspectives on Modern Mathematics
+		* ML 326 - Restorative Justice
+		* NURS 380 - Critical Reflections on Health
+		* PHIL 313 - Emotions and Motivation
+		* PHIL 318 - Minds, Brains, and Persons
+		* PPE 395 - Politics, Markets, and Morality
+		* PSYC 399 - Psychology and Religion
+		* PUBH 385 - The Impact of Clean Water: Honduras and Navajo Nation
+		* PUBH 395 - Human Flourishing through Public Health
+		* RECR 310 - Theory and Philosophy of Therapeutic Recreation
+		* SOWK 381 - Social Work Capstone
+		* SPAUD 399 - Critical Reflections in Speech Pathology
