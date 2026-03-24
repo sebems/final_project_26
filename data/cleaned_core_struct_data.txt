@@ -74,7 +74,6 @@ Core Program
 		* PER 183 - Tennis Level II
 		* PER 185 - Soccer
 	- World Languages I
-	One from
 		* CHIN 102 - Elementary Chinese II
 		* DUTC 102 - Elementary Dutch II
 		* FREN 102 - Elementary French II
@@ -235,7 +234,7 @@ Core Program
 		* REL 263 - Theology, Beauty, and the Arts
 		* REL 353 - Islam
 		* REL 356 - Confucianism
-	Theory &amp; Criticism
+	Theory & Criticism
 		* COMM 254 - Screen Storytelling: Theory and Criticism
 		* COMM 305 - Persuasion and Propaganda
 		* PHIL 202 - Philosophy, Politics, and Law
@@ -261,7 +260,7 @@ Core Program
 		* STAT 143 - Introduction to Probability and Statistics
 		* STAT 145 - Biostatistics
 	- Natural Sciences
-	Physics &amp; Astronomy
+	Physics & Astronomy
 		* ASTR 110 - Planets, Stars, and Galaxies
 		* ASTR 111 - The Solar System
 		* ASTR 112 - Stars, Galaxies, and the Universe
@@ -294,7 +293,7 @@ Core Program
 		* CHEM 172 - Water, Water, Water
 		* HNRS 234 - Honors Chemistry
 		* SCES 210 - Science Content and Processes
-	Geology &amp; Earth Sciences
+	Geology & Earth Sciences
 		* GEO 120 - Earth Systems
 		* GEO 151 - Introduction to Geology
 		* GEO 153 - Great Lakes Geology
@@ -352,7 +351,7 @@ Core Program
 		* SOWK 250 - Diversity and Inequality in the United States
 - CROSS-DISCIPLINARY INTEGRATION
 	- Engaged Citizenship Commitments
-		- Diversity and Difference (Tag)
+		- Diversity and Difference 
 			* ASC 140 - First-Generation Student Experience
 			* BUS 392 - Business Ethics
 			* COMM 141 - Visual Rhetoric
@@ -390,7 +389,7 @@ Core Program
 			* SOWK 360 - Social Welfare Policy and Advocacy
 			* SPAN 310 - Hispanic Culture in the United States
 			* STDC 343 - Integrating Faith and Public Life
-		- Environmental Sustainability (Tag)
+		- Environmental Sustainability 
 			* BIOL 123 - Living Systems
 			* BIOL 160 - Ecological and Evolutionary Systems
 			* BIOL 345 - Ecosystem Ecology and Management
@@ -427,7 +426,7 @@ Core Program
 			* SCES 110 - Science and a Changing World
 			* SCM 201 - Introduction to Operations and Supply Chain Management
 			* STCR 225 - Community in a Costa Rican Watershed
-		- Global Regions and Cultures (Tag)
+		- Global Regions and Cultures 
 			* ARTH 241 - Chinese Art History
 			* ARTH 243 - Japanese Art History
 			* BIOL 371 - Tropical Ecosystems: Conservation and Development in Belize

@@ -1,0 +1,2101 @@
+{
+    "program_name": "Core Program",
+    "categories": [
+        {
+            "name": "FOUNDATIONS",
+            "sections": [
+                {
+                    "name": "Community and Commitments",
+                    "courses": [
+                        {
+                            "code": "CORE 100",
+                            "name": "CORE 100 - Community and Commitments"
+                        },
+                        {
+                            "code": "HNRS 110",
+                            "name": "HNRS 110 - Honors Community and Commitments"
+                        }
+                    ],
+                    "subsections": []
+                },
+                {
+                    "name": "Foundations of Christianity I",
+                    "courses": [
+                        {
+                            "code": "REL 121",
+                            "name": "REL 121 - Biblical Literature and Theology"
+                        },
+                        {
+                            "code": "REL 131",
+                            "name": "REL 131 - Christian Theology"
+                        },
+                        {
+                            "code": "HNRS 103",
+                            "name": "HNRS 103 - Foundations in Biblical Literature and Theology"
+                        }
+                    ],
+                    "subsections": []
+                },
+                {
+                    "name": "Foundations of Christianity II",
+                    "courses": [
+                        {
+                            "code": "ENGL 250",
+                            "name": "ENGL 250 - Literature of Faith"
+                        },
+                        {
+                            "code": "HIST 263",
+                            "name": "HIST 263 - Medieval and Renaissance Europe, 1000-1500"
+                        },
+                        {
+                            "code": "HIST 264",
+                            "name": "HIST 264 - The Reformation in Historical Context (1500-1700)"
+                        },
+                        {
+                            "code": "HNRS 203",
+                            "name": "HNRS 203 - Intermediate Studies in Biblical Literature and Theology"
+                        },
+                        {
+                            "code": "PHIL 224",
+                            "name": "PHIL 224 - Glittering Vices: The Capital Vices and Christian Character"
+                        },
+                        {
+                            "code": "PHIL 234",
+                            "name": "PHIL 234 - Augustine's Confessions: A Map of the Heart"
+                        },
+                        {
+                            "code": "PHIL 251",
+                            "name": "PHIL 251 - Legacies of Thought: Ancient Philosophy and Medieval Christianity"
+                        },
+                        {
+                            "code": "PHIL 252",
+                            "name": "PHIL 252 - The Christian Foundations of Modernity"
+                        },
+                        {
+                            "code": "PHIL 293",
+                            "name": "PHIL 293 - God, Freedom, and Evil"
+                        },
+                        {
+                            "code": "POLS 306",
+                            "name": "POLS 306 - God, Humanity, and the State"
+                        },
+                        {
+                            "code": "REL 211",
+                            "name": "REL 211 - From Creation to Promised Land"
+                        },
+                        {
+                            "code": "REL 212",
+                            "name": "REL 212 - From Conquest to Exile"
+                        },
+                        {
+                            "code": "REL 213",
+                            "name": "REL 213 - Psalms and Wisdom Literature"
+                        },
+                        {
+                            "code": "REL 214",
+                            "name": "REL 214 - Prophets"
+                        },
+                        {
+                            "code": "REL 221",
+                            "name": "REL 221 - Jesus in the Gospels and Acts"
+                        },
+                        {
+                            "code": "REL 222",
+                            "name": "REL 222 - The Gospel and Letters of John"
+                        },
+                        {
+                            "code": "REL 223",
+                            "name": "REL 223 - Paul's Letters"
+                        },
+                        {
+                            "code": "REL 224",
+                            "name": "REL 224 - Revelation and General Letters"
+                        },
+                        {
+                            "code": "REL 230",
+                            "name": "REL 230 - Revelation and Knowledge of God"
+                        },
+                        {
+                            "code": "REL 231",
+                            "name": "REL 231 - The Triune God"
+                        },
+                        {
+                            "code": "REL 232",
+                            "name": "REL 232 - Creation and Humanity"
+                        },
+                        {
+                            "code": "REL 233",
+                            "name": "REL 233 - Christ and Reconciliation"
+                        },
+                        {
+                            "code": "REL 234",
+                            "name": "REL 234 - Holy Spirit and Church"
+                        },
+                        {
+                            "code": "REL 235",
+                            "name": "REL 235 - The Christian Hope"
+                        },
+                        {
+                            "code": "REL 237",
+                            "name": "REL 237 - Christian Worship"
+                        },
+                        {
+                            "code": "REL 243",
+                            "name": "REL 243 - Theology: From the Early Church through the Middle Ages"
+                        },
+                        {
+                            "code": "REL 244",
+                            "name": "REL 244 - Theology: From the Reformation to the Present"
+                        },
+                        {
+                            "code": "REL 251",
+                            "name": "REL 251 - Christianity and Religious Plurality"
+                        }
+                    ],
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "name": "COMPETENCIES AND SKILLS",
+            "sections": [
+                {
+                    "name": "Foundational Writing",
+                    "courses": [
+                        {
+                            "code": "ENGL 101",
+                            "name": "ENGL 101 - Written Rhetoric"
+                        }
+                    ],
+                    "subsections": [
+                        {
+                            "name": "Or",
+                            "courses": [
+                                {
+                                    "code": "ENGL 100",
+                                    "name": "ENGL 100 - Enhanced Written Rhetoric I"
+                                },
+                                {
+                                    "code": "ENGL 102",
+                                    "name": "ENGL 102 - Enhanced Written Rhetoric II"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Health and Movement (Personal Fitness)",
+                    "courses": [
+                        {
+                            "code": "PER 101",
+                            "name": "PER 101 - Jogging and Road Racing"
+                        },
+                        {
+                            "code": "PER 102",
+                            "name": "PER 102 - Nordic Walking"
+                        },
+                        {
+                            "code": "PER 103",
+                            "name": "PER 103 - Cycling"
+                        },
+                        {
+                            "code": "PER 104",
+                            "name": "PER 104 - Core Strength Training and Balance"
+                        },
+                        {
+                            "code": "PER 106",
+                            "name": "PER 106 - Cardio Cross Training"
+                        },
+                        {
+                            "code": "PER 107",
+                            "name": "PER 107 - Strength and Conditioning"
+                        },
+                        {
+                            "code": "PER 108",
+                            "name": "PER 108 - Aquatic Fitness"
+                        },
+                        {
+                            "code": "PER 112",
+                            "name": "PER 112 - Special Topics in Personal Fitness"
+                        }
+                    ],
+                    "subsections": []
+                },
+                {
+                    "name": "Health and Movement (Leisure, Sport, and Skills)",
+                    "courses": [
+                        {
+                            "code": "KIN 223",
+                            "name": "KIN 223 - Educational Health, Movement, and Dance"
+                        },
+                        {
+                            "code": "PER 124",
+                            "name": "PER 124 - Swim"
+                        },
+                        {
+                            "code": "PER 130",
+                            "name": "PER 130 - Women's Self Defense"
+                        },
+                        {
+                            "code": "PER 132",
+                            "name": "PER 132 - Golf Level I"
+                        },
+                        {
+                            "code": "PER 133",
+                            "name": "PER 133 - Golf Level II"
+                        },
+                        {
+                            "code": "PER 137",
+                            "name": "PER 137 - Bowling"
+                        },
+                        {
+                            "code": "PER 138",
+                            "name": "PER 138 - Backpacking I"
+                        },
+                        {
+                            "code": "PER 140",
+                            "name": "PER 140 - Special Topics: Lifetime and Leisure"
+                        },
+                        {
+                            "code": "PER 141",
+                            "name": "PER 141 - Rock Climbing I"
+                        },
+                        {
+                            "code": "PER 142",
+                            "name": "PER 142 - Rock Climbing II"
+                        },
+                        {
+                            "code": "PER 143",
+                            "name": "PER 143 - Paddling"
+                        },
+                        {
+                            "code": "PER 144",
+                            "name": "PER 144 - Frisbee"
+                        },
+                        {
+                            "code": "PER 173",
+                            "name": "PER 173 - Basketball"
+                        },
+                        {
+                            "code": "PER 174",
+                            "name": "PER 174 - Volleyball Level I"
+                        },
+                        {
+                            "code": "PER 175",
+                            "name": "PER 175 - Volleyball Level II"
+                        },
+                        {
+                            "code": "PER 177",
+                            "name": "PER 177 - Slow Pitch Softball"
+                        },
+                        {
+                            "code": "PER 180",
+                            "name": "PER 180 - Badminton Level I"
+                        },
+                        {
+                            "code": "PER 181",
+                            "name": "PER 181 - Badminton Level II"
+                        },
+                        {
+                            "code": "PER 182",
+                            "name": "PER 182 - Tennis Level I"
+                        },
+                        {
+                            "code": "PER 183",
+                            "name": "PER 183 - Tennis Level II"
+                        },
+                        {
+                            "code": "PER 185",
+                            "name": "PER 185 - Soccer"
+                        }
+                    ],
+                    "subsections": []
+                },
+                {
+                    "name": "World Languages I",
+                    "courses": [
+                        {
+                            "code": "CHIN 102",
+                            "name": "CHIN 102 - Elementary Chinese II"
+                        },
+                        {
+                            "code": "DUTC 102",
+                            "name": "DUTC 102 - Elementary Dutch II"
+                        },
+                        {
+                            "code": "FREN 102",
+                            "name": "FREN 102 - Elementary French II"
+                        },
+                        {
+                            "code": "FREN 150",
+                            "name": "FREN 150 - Accelerated Elementary French"
+                        },
+                        {
+                            "code": "GERM 102",
+                            "name": "GERM 102 - Elementary German II"
+                        },
+                        {
+                            "code": "KOR 102",
+                            "name": "KOR 102 - Elementary Korean II"
+                        },
+                        {
+                            "code": "LATN 102",
+                            "name": "LATN 102 - Elementary Latin II"
+                        },
+                        {
+                            "code": "SPAN 102",
+                            "name": "SPAN 102 - Elementary Spanish II"
+                        },
+                        {
+                            "code": "SPAN 150",
+                            "name": "SPAN 150 - Accelerated Elementary Spanish"
+                        }
+                    ],
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "name": "KNOWLEDGE AND UNDERSTANDING",
+            "sections": [
+                {
+                    "name": "World Languages II",
+                    "courses": [
+                        {
+                            "code": "CHIN 201",
+                            "name": "CHIN 201 - Intermediate Chinese I"
+                        },
+                        {
+                            "code": "CHIN 202",
+                            "name": "CHIN 202 - Intermediate Chinese II"
+                        },
+                        {
+                            "code": "DUTC 201",
+                            "name": "DUTC 201 - Intermediate Dutch I"
+                        },
+                        {
+                            "code": "DUTC 202",
+                            "name": "DUTC 202 - Intermediate Dutch II"
+                        },
+                        {
+                            "code": "FREN 201",
+                            "name": "FREN 201 - Intermediate French I"
+                        },
+                        {
+                            "code": "FREN 202",
+                            "name": "FREN 202 - Intermediate French II"
+                        },
+                        {
+                            "code": "FREN 301",
+                            "name": "FREN 301 - Advanced French I: Sustainability in France"
+                        },
+                        {
+                            "code": "GERM 201",
+                            "name": "GERM 201 - Intermediate German I"
+                        },
+                        {
+                            "code": "GERM 202",
+                            "name": "GERM 202 - Intermediate German II"
+                        },
+                        {
+                            "code": "GERM 301",
+                            "name": "GERM 301 - Advanced German Language and Culture"
+                        },
+                        {
+                            "code": "KOR 201",
+                            "name": "KOR 201 - Intermediate Korean I"
+                        },
+                        {
+                            "code": "KOR 202",
+                            "name": "KOR 202 - Intermediate Korean II"
+                        },
+                        {
+                            "code": "SPAN 201",
+                            "name": "SPAN 201 - Intermediate Spanish I"
+                        },
+                        {
+                            "code": "SPAN 202",
+                            "name": "SPAN 202 - Intermediate Spanish II"
+                        },
+                        {
+                            "code": "SPAN 301",
+                            "name": "SPAN 301 - Advanced Grammar, Composition and Conversation I"
+                        }
+                    ],
+                    "subsections": []
+                },
+                {
+                    "name": "Arts, Oral Rhetoric, Visual Rhetoric",
+                    "courses": [],
+                    "subsections": [
+                        {
+                            "name": "Arts Education",
+                            "courses": [
+                                {
+                                    "code": "EDUC 210",
+                                    "name": "EDUC 210 - Music and Art in the Elementary Classroom"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Creative Writing",
+                            "courses": [
+                                {
+                                    "code": "COMM 248",
+                                    "name": "COMM 248 - Screenwriting"
+                                },
+                                {
+                                    "code": "ENGL 260",
+                                    "name": "ENGL 260 - The Craft of Writing"
+                                },
+                                {
+                                    "code": "ENGL 360",
+                                    "name": "ENGL 360 - Creative Writing: Nonfiction"
+                                },
+                                {
+                                    "code": "ENGL 361",
+                                    "name": "ENGL 361 - Creative Writing: Poetry"
+                                },
+                                {
+                                    "code": "ENGL 362",
+                                    "name": "ENGL 362 - Creative Writing: Fiction"
+                                },
+                                {
+                                    "code": "HNRS 211",
+                                    "name": "HNRS 211 - Honors Creative Writing"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Oral and Visual Rhetoric",
+                            "courses": [
+                                {
+                                    "code": "ART 153",
+                                    "name": "ART 153 - Visual Culture"
+                                },
+                                {
+                                    "code": "COMM 101",
+                                    "name": "COMM 101 - Oral Rhetoric"
+                                },
+                                {
+                                    "code": "COMM 141",
+                                    "name": "COMM 141 - Visual Rhetoric"
+                                },
+                                {
+                                    "code": "COMM 200",
+                                    "name": "COMM 200 - Advanced Oral Rhetoric"
+                                },
+                                {
+                                    "code": "HNRS 212",
+                                    "name": "HNRS 212 - Honors Rhetoric"
+                                },
+                                {
+                                    "code": "IDIS 102",
+                                    "name": "IDIS 102 - Oral Rhetoric for Engineers"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Performing Arts",
+                            "courses": [
+                                {
+                                    "code": "HNRS 213",
+                                    "name": "HNRS 213 - Honors Performing Arts"
+                                },
+                                {
+                                    "code": "MUSC 100",
+                                    "name": "MUSC 100 - Music Theory Fundamentals in Global Context"
+                                },
+                                {
+                                    "code": "MUSC 103",
+                                    "name": "MUSC 103 - Understanding and Enjoying Music"
+                                },
+                                {
+                                    "code": "MUSC 106",
+                                    "name": "MUSC 106 - American Music"
+                                },
+                                {
+                                    "code": "MUSC 107",
+                                    "name": "MUSC 107 - World Music"
+                                },
+                                {
+                                    "code": "MUSC 117",
+                                    "name": "MUSC 117 - Jazz Band"
+                                },
+                                {
+                                    "code": "MUSC 131",
+                                    "name": "MUSC 131 - Campus Choir"
+                                },
+                                {
+                                    "code": "MUSC 141",
+                                    "name": "MUSC 141 - Capella"
+                                },
+                                {
+                                    "code": "MUSC 151",
+                                    "name": "MUSC 151 - Symphonic Band"
+                                },
+                                {
+                                    "code": "MUSC 161",
+                                    "name": "MUSC 161 - Wind Ensemble"
+                                },
+                                {
+                                    "code": "MUSC 171",
+                                    "name": "MUSC 171 - Orchestra"
+                                },
+                                {
+                                    "code": "MUSC 182",
+                                    "name": "MUSC 182 - Gospel Choir"
+                                },
+                                {
+                                    "code": "MUSC 191",
+                                    "name": "MUSC 191 - Women's Chorale"
+                                },
+                                {
+                                    "code": "MUSC 203",
+                                    "name": "MUSC 203 - Popular Music"
+                                },
+                                {
+                                    "code": "MUSC 236",
+                                    "name": "MUSC 236 - Music in Worship"
+                                },
+                                {
+                                    "code": "THTR 120",
+                                    "name": "THTR 120 - Calvin Theatre Company"
+                                },
+                                {
+                                    "code": "THTR 203",
+                                    "name": "THTR 203 - Introduction to Performance Studies"
+                                },
+                                {
+                                    "code": "THTR 323",
+                                    "name": "THTR 323 - Acting"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Visual Arts",
+                            "courses": [
+                                {
+                                    "code": "ARTH 121",
+                                    "name": "ARTH 121 - Late Medieval Art, 1250-1400"
+                                },
+                                {
+                                    "code": "ARTH 131",
+                                    "name": "ARTH 131 - Renaissance and Baroque Europe, 1400-1700"
+                                },
+                                {
+                                    "code": "ARTH 133",
+                                    "name": "ARTH 133 - 18th- and 19th-Century European Art"
+                                },
+                                {
+                                    "code": "ARTH 141",
+                                    "name": "ARTH 141 - Modern Art, 1900-1960"
+                                },
+                                {
+                                    "code": "ARTH 151",
+                                    "name": "ARTH 151 - Contemporary Art, 1960-2020"
+                                },
+                                {
+                                    "code": "ARTH 241",
+                                    "name": "ARTH 241 - Chinese Art History"
+                                },
+                                {
+                                    "code": "ARTH 243",
+                                    "name": "ARTH 243 - Japanese Art History"
+                                },
+                                {
+                                    "code": "ARTS 250",
+                                    "name": "ARTS 250 - Introduction to Drawing"
+                                },
+                                {
+                                    "code": "ARTS 251",
+                                    "name": "ARTS 251 - Introduction to Painting"
+                                },
+                                {
+                                    "code": "ARTS 254",
+                                    "name": "ARTS 254 - Introduction to Graphic Design"
+                                },
+                                {
+                                    "code": "ARTS 256",
+                                    "name": "ARTS 256 - Introduction to Photography"
+                                },
+                                {
+                                    "code": "ARTS 258",
+                                    "name": "ARTS 258 - Introduction to Ceramics"
+                                },
+                                {
+                                    "code": "COMM 145",
+                                    "name": "COMM 145 - Introduction to Film and Media"
+                                },
+                                {
+                                    "code": "COMM 180",
+                                    "name": "COMM 180 - Communicating with Digital Media"
+                                },
+                                {
+                                    "code": "COMM 190",
+                                    "name": "COMM 190 - Media Production I"
+                                },
+                                {
+                                    "code": "COMM 255",
+                                    "name": "COMM 255 - Documentary Film and Television"
+                                },
+                                {
+                                    "code": "FREN 375",
+                                    "name": "FREN 375 - French Cinema"
+                                },
+                                {
+                                    "code": "HNRS 214",
+                                    "name": "HNRS 214 - Honors Visual Art"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Humanities",
+                    "courses": [],
+                    "subsections": [
+                        {
+                            "name": "Classics",
+                            "courses": [
+                                {
+                                    "code": "CLAS 211",
+                                    "name": "CLAS 211 - Classical Literature"
+                                },
+                                {
+                                    "code": "CLAS 231",
+                                    "name": "CLAS 231 - Classical Mythology"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Literature",
+                            "courses": [
+                                {
+                                    "code": "ENGL 200",
+                                    "name": "ENGL 200 - Introduction to Global Literature"
+                                },
+                                {
+                                    "code": "ENGL 205",
+                                    "name": "ENGL 205 - Special Topics"
+                                },
+                                {
+                                    "code": "ENGL 210",
+                                    "name": "ENGL 210 - Introduction to Early British Literature"
+                                },
+                                {
+                                    "code": "ENGL 215",
+                                    "name": "ENGL 215 - Introduction to Later British Literature"
+                                },
+                                {
+                                    "code": "ENGL 220",
+                                    "name": "ENGL 220 - Introduction to American Literature"
+                                },
+                                {
+                                    "code": "ENGL 230",
+                                    "name": "ENGL 230 - Introduction to Genre"
+                                },
+                                {
+                                    "code": "ENGL 235",
+                                    "name": "ENGL 235 - Major Text"
+                                },
+                                {
+                                    "code": "ENGL 300",
+                                    "name": "ENGL 300 - Advanced Studies in Global Literature"
+                                },
+                                {
+                                    "code": "ENGL 305",
+                                    "name": "ENGL 305 - Advanced Special Topics"
+                                },
+                                {
+                                    "code": "ENGL 310",
+                                    "name": "ENGL 310 - Advanced Studies in Early British Literature"
+                                },
+                                {
+                                    "code": "ENGL 315",
+                                    "name": "ENGL 315 - Advanced Studies in Later British Literature"
+                                },
+                                {
+                                    "code": "ENGL 320",
+                                    "name": "ENGL 320 - Advanced Studies in American Literature"
+                                },
+                                {
+                                    "code": "ENGL 352",
+                                    "name": "ENGL 352 - The Teaching of Adolescent Literature"
+                                },
+                                {
+                                    "code": "ENGL 330",
+                                    "name": "ENGL 330 - Advanced Studies in Genre"
+                                },
+                                {
+                                    "code": "ENGL 335",
+                                    "name": "ENGL 335 - Advanced Studies in a Major Author"
+                                },
+                                {
+                                    "code": "FREN 351",
+                                    "name": "FREN 351 - French Culture I"
+                                },
+                                {
+                                    "code": "FREN 352",
+                                    "name": "FREN 352 - French Culture II"
+                                },
+                                {
+                                    "code": "FREN 381",
+                                    "name": "FREN 381 - Special Topics"
+                                },
+                                {
+                                    "code": "GERM 303",
+                                    "name": "GERM 303 - Topics in German Literature"
+                                },
+                                {
+                                    "code": "HNRS 222",
+                                    "name": "HNRS 222 - Honors Literature"
+                                },
+                                {
+                                    "code": "SPAN 309",
+                                    "name": "SPAN 309 - Introduction to the Hispanic World II"
+                                },
+                                {
+                                    "code": "STBR 210",
+                                    "name": "STBR 210 - Disciplinary course of the director"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "History",
+                            "courses": [
+                                {
+                                    "code": "HIST 151",
+                                    "name": "HIST 151 - History of the West and the World I"
+                                },
+                                {
+                                    "code": "HIST 152",
+                                    "name": "HIST 152 - History of the West and the World II"
+                                },
+                                {
+                                    "code": "HIST 153",
+                                    "name": "HIST 153 - Explorations in World History"
+                                },
+                                {
+                                    "code": "HIST 203",
+                                    "name": "HIST 203 - Reacting to the Past: History Role-Playing Game"
+                                },
+                                {
+                                    "code": "HIST 225",
+                                    "name": "HIST 225 - England"
+                                },
+                                {
+                                    "code": "HIST 229",
+                                    "name": "HIST 229 - Seminar in United States History"
+                                },
+                                {
+                                    "code": "HIST 233",
+                                    "name": "HIST 233 - Modern Middle East"
+                                },
+                                {
+                                    "code": "HIST 242",
+                                    "name": "HIST 242 - Africa and the World"
+                                },
+                                {
+                                    "code": "HIST 245",
+                                    "name": "HIST 245 - East Asia to 1800"
+                                },
+                                {
+                                    "code": "HIST 250",
+                                    "name": "HIST 250 - Native American History"
+                                },
+                                {
+                                    "code": "HIST 251",
+                                    "name": "HIST 251 - Early America"
+                                },
+                                {
+                                    "code": "HIST 252",
+                                    "name": "HIST 252 - America from Republic to Empire"
+                                },
+                                {
+                                    "code": "HIST 253",
+                                    "name": "HIST 253 - Recent America"
+                                },
+                                {
+                                    "code": "HIST 255",
+                                    "name": "HIST 255 - African-American History"
+                                },
+                                {
+                                    "code": "HIST 256",
+                                    "name": "HIST 256 - Women and Gender in US History"
+                                },
+                                {
+                                    "code": "HIST 258",
+                                    "name": "HIST 258 - US Military History"
+                                },
+                                {
+                                    "code": "HIST 259",
+                                    "name": "HIST 259 - American Economic and Business History"
+                                },
+                                {
+                                    "code": "HIST 261",
+                                    "name": "HIST 261 - Ancient Mediterranean"
+                                },
+                                {
+                                    "code": "HIST 262",
+                                    "name": "HIST 262 - Early Medieval Worlds, 300-1000"
+                                },
+                                {
+                                    "code": "HIST 267",
+                                    "name": "HIST 267 - Modern Europe"
+                                },
+                                {
+                                    "code": "HIST 271",
+                                    "name": "HIST 271 - War and Society"
+                                },
+                                {
+                                    "code": "HIST 274",
+                                    "name": "HIST 274 - Environmental History"
+                                },
+                                {
+                                    "code": "HIST 280",
+                                    "name": "HIST 280 - Introduction to Archaeology"
+                                },
+                                {
+                                    "code": "HNRS 223",
+                                    "name": "HNRS 223 - Honors History"
+                                },
+                                {
+                                    "code": "IDIS 206",
+                                    "name": "IDIS 206 - Introduction to Medieval Studies"
+                                },
+                                {
+                                    "code": "IDIS 210",
+                                    "name": "IDIS 210 - Introduction to the Digital Humanities"
+                                },
+                                {
+                                    "code": "IDIS 240",
+                                    "name": "IDIS 240 - Introduction to Archaeology"
+                                },
+                                {
+                                    "code": "SPAN 308",
+                                    "name": "SPAN 308 - Introduction to the Hispanic World I"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Philosophy",
+                            "courses": [
+                                {
+                                    "code": "HNRS 224",
+                                    "name": "HNRS 224 - Honors Philosophy"
+                                },
+                                {
+                                    "code": "PHIL 137",
+                                    "name": "PHIL 137 - Disability, Community, and Advocacy"
+                                },
+                                {
+                                    "code": "PHIL 139",
+                                    "name": "PHIL 139 - Neurodiversity and Philosophy of Disability"
+                                },
+                                {
+                                    "code": "PHIL 151",
+                                    "name": "PHIL 151 - Philosophical Explorations"
+                                },
+                                {
+                                    "code": "PHIL 153",
+                                    "name": "PHIL 153 - Fundamental Questions in Philosophy"
+                                },
+                                {
+                                    "code": "PHIL 205",
+                                    "name": "PHIL 205 - Ethics"
+                                },
+                                {
+                                    "code": "PHIL 207",
+                                    "name": "PHIL 207 - Justice and the Common Good: Studies in Political Philosophy"
+                                },
+                                {
+                                    "code": "PHIL 211",
+                                    "name": "PHIL 211 - Philosophy of Gender"
+                                },
+                                {
+                                    "code": "PHIL 212",
+                                    "name": "PHIL 212 - Ethical Dimensions of Health Care"
+                                },
+                                {
+                                    "code": "PHIL 218",
+                                    "name": "PHIL 218 - AI and You: Sex, Care, and War in an Age of Intelligent Bots"
+                                },
+                                {
+                                    "code": "PHIL 223",
+                                    "name": "PHIL 223 - Peaceable Kingdom"
+                                },
+                                {
+                                    "code": "PHIL 225",
+                                    "name": "PHIL 225 - Public Philosophy"
+                                },
+                                {
+                                    "code": "PHIL 233",
+                                    "name": "PHIL 233 - Philosophical Transformation"
+                                },
+                                {
+                                    "code": "PHIL 235",
+                                    "name": "PHIL 235 - I Long, Therefore I Am"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Religion",
+                            "courses": [
+                                {
+                                    "code": "HNRS 225",
+                                    "name": "HNRS 225 - Honors Religion"
+                                },
+                                {
+                                    "code": "REL 255",
+                                    "name": "REL 255 - World Religions"
+                                },
+                                {
+                                    "code": "REL 261",
+                                    "name": "REL 261 - Christianity and Culture"
+                                },
+                                {
+                                    "code": "REL 262",
+                                    "name": "REL 262 - Social Justice from the Prophets to Jesus"
+                                },
+                                {
+                                    "code": "REL 263",
+                                    "name": "REL 263 - Theology, Beauty, and the Arts"
+                                },
+                                {
+                                    "code": "REL 353",
+                                    "name": "REL 353 - Islam"
+                                },
+                                {
+                                    "code": "REL 356",
+                                    "name": "REL 356 - Confucianism"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Theory & Criticism",
+                            "courses": [
+                                {
+                                    "code": "COMM 254",
+                                    "name": "COMM 254 - Screen Storytelling: Theory and Criticism"
+                                },
+                                {
+                                    "code": "COMM 305",
+                                    "name": "COMM 305 - Persuasion and Propaganda"
+                                },
+                                {
+                                    "code": "PHIL 202",
+                                    "name": "PHIL 202 - Philosophy, Politics, and Law"
+                                },
+                                {
+                                    "code": "POLS 110",
+                                    "name": "POLS 110 - Foundations of Political Community"
+                                },
+                                {
+                                    "code": "POLS 240",
+                                    "name": "POLS 240 - Freedom, Justice, and Political Authority"
+                                },
+                                {
+                                    "code": "POLS 242",
+                                    "name": "POLS 242 - Philosophy, Politics, and Law"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Mathematical Sciences",
+                    "courses": [
+                        {
+                            "code": "CS 100",
+                            "name": "CS 100 - Creating Interactive Web Media"
+                        },
+                        {
+                            "code": "CS 106",
+                            "name": "CS 106 - Introduction to Scientific Computation and Modeling"
+                        },
+                        {
+                            "code": "CS 108",
+                            "name": "CS 108 - Introduction to Computing"
+                        },
+                        {
+                            "code": "DATA 102",
+                            "name": "DATA 102 - Foundations of Data Science and Analytics"
+                        },
+                        {
+                            "code": "ECON 243",
+                            "name": "ECON 243 - Introductory Econometrics"
+                        },
+                        {
+                            "code": "HNRS 251",
+                            "name": "HNRS 251 - Honors Computer Science"
+                        },
+                        {
+                            "code": "MATH 100",
+                            "name": "MATH 100 - Mathematics in the Contemporary World"
+                        },
+                        {
+                            "code": "MATH 132",
+                            "name": "MATH 132 - Calculus for Management, Life, and Social Sciences"
+                        },
+                        {
+                            "code": "MATH 161",
+                            "name": "MATH 161 - Calculus: Modeling and Computation"
+                        },
+                        {
+                            "code": "MATH 162",
+                            "name": "MATH 162 - Differential and Integral Calculus"
+                        },
+                        {
+                            "code": "MATH 221",
+                            "name": "MATH 221 - The Real Number System and Methods for Elementary School Teachers"
+                        },
+                        {
+                            "code": "POLS 253",
+                            "name": "POLS 253 - Introductory Econometrics"
+                        },
+                        {
+                            "code": "PSYC 255",
+                            "name": "PSYC 255 - Statistics and Research Design"
+                        },
+                        {
+                            "code": "SOC 255",
+                            "name": "SOC 255 - Social Science Statistics"
+                        },
+                        {
+                            "code": "SOWK 255",
+                            "name": "SOWK 255 - Social Science Statistics"
+                        },
+                        {
+                            "code": "STAT 143",
+                            "name": "STAT 143 - Introduction to Probability and Statistics"
+                        },
+                        {
+                            "code": "STAT 145",
+                            "name": "STAT 145 - Biostatistics"
+                        }
+                    ],
+                    "subsections": []
+                },
+                {
+                    "name": "Natural Sciences",
+                    "courses": [],
+                    "subsections": [
+                        {
+                            "name": "Physics & Astronomy",
+                            "courses": [
+                                {
+                                    "code": "ASTR 110",
+                                    "name": "ASTR 110 - Planets, Stars, and Galaxies"
+                                },
+                                {
+                                    "code": "ASTR 111",
+                                    "name": "ASTR 111 - The Solar System"
+                                },
+                                {
+                                    "code": "ASTR 112",
+                                    "name": "ASTR 112 - Stars, Galaxies, and the Universe"
+                                },
+                                {
+                                    "code": "ASTR 201",
+                                    "name": "ASTR 201 - Astrophysical Black Holes"
+                                },
+                                {
+                                    "code": "ASTR 211",
+                                    "name": "ASTR 211 - Planetary and Stellar Astronomy"
+                                },
+                                {
+                                    "code": "HNRS 232",
+                                    "name": "HNRS 232 - Honors Physics and Astronomy"
+                                },
+                                {
+                                    "code": "PHYS 130",
+                                    "name": "PHYS 130 - Particles, Nuclei, and Astronomy"
+                                },
+                                {
+                                    "code": "PHYS 131",
+                                    "name": "PHYS 131 - Matter, Light, and Energy"
+                                },
+                                {
+                                    "code": "PHYS 133",
+                                    "name": "PHYS 133 - Introductory Physics: Mechanics and Gravity"
+                                },
+                                {
+                                    "code": "PHYS 212",
+                                    "name": "PHYS 212 - Inquiry-Based Physics"
+                                },
+                                {
+                                    "code": "PHYS 221",
+                                    "name": "PHYS 221 - General Physics"
+                                },
+                                {
+                                    "code": "PHYS 223",
+                                    "name": "PHYS 223 - Physics for the Health Sciences"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Biology",
+                            "courses": [
+                                {
+                                    "code": "BIOL 113",
+                                    "name": "BIOL 113 - Contemporary Topics in Biology"
+                                },
+                                {
+                                    "code": "BIOL 115",
+                                    "name": "BIOL 115 - Essentials of Human Anatomy and Physiology"
+                                },
+                                {
+                                    "code": "BIOL 123",
+                                    "name": "BIOL 123 - Living Systems"
+                                },
+                                {
+                                    "code": "BIOL 141",
+                                    "name": "BIOL 141 - Cell Biology and Genetics for the Health Sciences"
+                                },
+                                {
+                                    "code": "BIOL 160",
+                                    "name": "BIOL 160 - Ecological and Evolutionary Systems"
+                                },
+                                {
+                                    "code": "BIOL 161",
+                                    "name": "BIOL 161 - Cellular and Genetic Systems"
+                                },
+                                {
+                                    "code": "HNRS 230",
+                                    "name": "HNRS 230 - Concepts and Methods in Science"
+                                },
+                                {
+                                    "code": "HNRS 233",
+                                    "name": "HNRS 233 - Honors Biology"
+                                },
+                                {
+                                    "code": "SCES 110",
+                                    "name": "SCES 110 - Science and a Changing World"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Chemistry",
+                            "courses": [
+                                {
+                                    "code": "CHEM 100",
+                                    "name": "CHEM 100 - The Molecular World"
+                                },
+                                {
+                                    "code": "CHEM 101",
+                                    "name": "CHEM 101 - General Chemistry I"
+                                },
+                                {
+                                    "code": "CHEM 103",
+                                    "name": "CHEM 103 - Accelerated General Chemistry"
+                                },
+                                {
+                                    "code": "CHEM 121",
+                                    "name": "CHEM 121 - Culinary Medicine"
+                                },
+                                {
+                                    "code": "CHEM 160",
+                                    "name": "CHEM 160 - Chemistry for the Health Sciences"
+                                },
+                                {
+                                    "code": "CHEM 171",
+                                    "name": "CHEM 171 - Chemistry, Policy, and the Future of Our Planet"
+                                },
+                                {
+                                    "code": "CHEM 172",
+                                    "name": "CHEM 172 - Water, Water, Water"
+                                },
+                                {
+                                    "code": "HNRS 234",
+                                    "name": "HNRS 234 - Honors Chemistry"
+                                },
+                                {
+                                    "code": "SCES 210",
+                                    "name": "SCES 210 - Science Content and Processes"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Geology & Earth Sciences",
+                            "courses": [
+                                {
+                                    "code": "GEO 120",
+                                    "name": "GEO 120 - Earth Systems"
+                                },
+                                {
+                                    "code": "GEO 151",
+                                    "name": "GEO 151 - Introduction to Geology"
+                                },
+                                {
+                                    "code": "GEO 153",
+                                    "name": "GEO 153 - Great Lakes Geology"
+                                },
+                                {
+                                    "code": "GEO 181",
+                                    "name": "GEO 181 - First-Year Research in Earth Sciences: Dunes"
+                                },
+                                {
+                                    "code": "GEO 250",
+                                    "name": "GEO 250 - Meteorology"
+                                },
+                                {
+                                    "code": "GEO 251",
+                                    "name": "GEO 251 - Oceanography"
+                                },
+                                {
+                                    "code": "HNRS 235",
+                                    "name": "HNRS 235 - Honors Geology and Earth Science"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Social and Behavioral Sciences",
+                    "courses": [],
+                    "subsections": [
+                        {
+                            "name": "Economics",
+                            "courses": [
+                                {
+                                    "code": "ECON 191",
+                                    "name": "ECON 191 - Introduction to Economics"
+                                },
+                                {
+                                    "code": "ECON 221",
+                                    "name": "ECON 221 - Principles of Microeconomics"
+                                },
+                                {
+                                    "code": "ECON 222",
+                                    "name": "ECON 222 - Principles of Macroeconomics"
+                                },
+                                {
+                                    "code": "ECON 232",
+                                    "name": "ECON 232 - Environmental Economics"
+                                },
+                                {
+                                    "code": "ECON 233",
+                                    "name": "ECON 233 - Economics of Energy and Sustainability"
+                                },
+                                {
+                                    "code": "ECON 237",
+                                    "name": "ECON 237 - Regional Economies of the World"
+                                },
+                                {
+                                    "code": "ECON 241",
+                                    "name": "ECON 241 - Health Economics and Health Policy"
+                                },
+                                {
+                                    "code": "HNRS 241",
+                                    "name": "HNRS 241 - Honors Economics"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Geography",
+                            "courses": [
+                                {
+                                    "code": "GEO 101",
+                                    "name": "GEO 101 - People, Place, and Community"
+                                },
+                                {
+                                    "code": "GEO 110",
+                                    "name": "GEO 110 - World Regional Geography"
+                                },
+                                {
+                                    "code": "HNRS 242",
+                                    "name": "HNRS 242 - Honors Geography"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Linguistics",
+                            "courses": [
+                                {
+                                    "code": "ENGL 372",
+                                    "name": "ENGL 372 - Sociolinguistics and Issues in Language Education"
+                                },
+                                {
+                                    "code": "SPAN 341",
+                                    "name": "SPAN 341 - Spanish Phonology, Dialectology, and Sociolinguistics"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Political Science",
+                            "courses": [
+                                {
+                                    "code": "HNRS 243",
+                                    "name": "HNRS 243 - Honors Political Science"
+                                },
+                                {
+                                    "code": "POLS 151",
+                                    "name": "POLS 151 - Foundations of Social Research"
+                                },
+                                {
+                                    "code": "POLS 212",
+                                    "name": "POLS 212 - Institutions and Politics of US Public Policy"
+                                },
+                                {
+                                    "code": "POLS 214",
+                                    "name": "POLS 214 - Governments and Globalization"
+                                },
+                                {
+                                    "code": "POLS 217",
+                                    "name": "POLS 217 - International Cooperation and Conflict"
+                                },
+                                {
+                                    "code": "POLS 219",
+                                    "name": "POLS 219 - Institutions and Politics of US Foreign Policy"
+                                },
+                                {
+                                    "code": "POLS 224",
+                                    "name": "POLS 224 - Contemporary Issues in Comparative Politics"
+                                },
+                                {
+                                    "code": "POLS 227",
+                                    "name": "POLS 227 - Contemporary Issues in International Politics"
+                                },
+                                {
+                                    "code": "POLS 229",
+                                    "name": "POLS 229 - Contemporary Issues in US Foreign Policy"
+                                },
+                                {
+                                    "code": "POLS 234",
+                                    "name": "POLS 234 - The President and Congress"
+                                },
+                                {
+                                    "code": "POLS 237",
+                                    "name": "POLS 237 - Political Parties and Interest Groups"
+                                },
+                                {
+                                    "code": "POLS 277",
+                                    "name": "POLS 277 - Asian Politics"
+                                },
+                                {
+                                    "code": "POLS 279",
+                                    "name": "POLS 279 - African Politics"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Psychology",
+                            "courses": [
+                                {
+                                    "code": "EDUC 241",
+                                    "name": "EDUC 241 - Inclusive Teaching: Ability, Language, and Multicultural Education"
+                                },
+                                {
+                                    "code": "HNRS 244",
+                                    "name": "HNRS 244 - Honors Psychology"
+                                },
+                                {
+                                    "code": "PSYC 151",
+                                    "name": "PSYC 151 - Introductory Psychology: Perspectives on the Self"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Sociology and Social Work",
+                            "courses": [
+                                {
+                                    "code": "EDUC 240",
+                                    "name": "EDUC 240 - The Social Context of Education"
+                                },
+                                {
+                                    "code": "HNRS 245",
+                                    "name": "HNRS 245 - Honors Sociology and Social Work"
+                                },
+                                {
+                                    "code": "SOC 130",
+                                    "name": "SOC 130 - Introduction to Cultural Anthropology"
+                                },
+                                {
+                                    "code": "SOC 151",
+                                    "name": "SOC 151 - Sociological Principles and Perspectives"
+                                },
+                                {
+                                    "code": "SOC 201",
+                                    "name": "SOC 201 - Families"
+                                },
+                                {
+                                    "code": "SOC 202",
+                                    "name": "SOC 202 - Urban Sociology"
+                                },
+                                {
+                                    "code": "SOC 203",
+                                    "name": "SOC 203 - Sociology of Deviance"
+                                },
+                                {
+                                    "code": "SOC 250",
+                                    "name": "SOC 250 - Diversity and Inequality in the United States"
+                                },
+                                {
+                                    "code": "SOC 301",
+                                    "name": "SOC 301 - Gender and Sexuality in the United States"
+                                },
+                                {
+                                    "code": "SOC 303",
+                                    "name": "SOC 303 - Criminology"
+                                },
+                                {
+                                    "code": "SOWK 240",
+                                    "name": "SOWK 240 - Introduction to Social Work and Social Welfare"
+                                },
+                                {
+                                    "code": "SOWK 250",
+                                    "name": "SOWK 250 - Diversity and Inequality in the United States"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CROSS-DISCIPLINARY INTEGRATION",
+            "sections": [
+                {
+                    "name": "Engaged Citizenship Commitments",
+                    "courses": [],
+                    "subsections": [
+                        {
+                            "name": "Diversity and Difference",
+                            "courses": [
+                                {
+                                    "code": "ASC 140",
+                                    "name": "ASC 140 - First-Generation Student Experience"
+                                },
+                                {
+                                    "code": "BUS 392",
+                                    "name": "BUS 392 - Business Ethics"
+                                },
+                                {
+                                    "code": "COMM 141",
+                                    "name": "COMM 141 - Visual Rhetoric"
+                                },
+                                {
+                                    "code": "EDUC 240",
+                                    "name": "EDUC 240 - The Social Context of Education"
+                                },
+                                {
+                                    "code": "FREN 361",
+                                    "name": "FREN 361 - The Francophone World: Quebec"
+                                },
+                                {
+                                    "code": "GEO 101",
+                                    "name": "GEO 101 - People, Place, and Community"
+                                },
+                                {
+                                    "code": "HIST 229",
+                                    "name": "HIST 229 - Seminar in United States History"
+                                },
+                                {
+                                    "code": "HIST 250",
+                                    "name": "HIST 250 - Native American History"
+                                },
+                                {
+                                    "code": "HIST 251",
+                                    "name": "HIST 251 - Early America"
+                                },
+                                {
+                                    "code": "HIST 252",
+                                    "name": "HIST 252 - America from Republic to Empire"
+                                },
+                                {
+                                    "code": "HIST 253",
+                                    "name": "HIST 253 - Recent America"
+                                },
+                                {
+                                    "code": "HIST 255",
+                                    "name": "HIST 255 - African-American History"
+                                },
+                                {
+                                    "code": "HIST 256",
+                                    "name": "HIST 256 - Women and Gender in US History"
+                                },
+                                {
+                                    "code": "HIST 258",
+                                    "name": "HIST 258 - US Military History"
+                                },
+                                {
+                                    "code": "HIST 356",
+                                    "name": "HIST 356 - American Social and Cultural History"
+                                },
+                                {
+                                    "code": "IDIS 175",
+                                    "name": "IDIS 175 - Who Am I? Helping Professionals Grow Self-Awareness Abroad"
+                                },
+                                {
+                                    "code": "IDIS 232",
+                                    "name": "IDIS 232 - Cohorts Intensive: Common Good Collective Travel"
+                                },
+                                {
+                                    "code": "MIN 231",
+                                    "name": "MIN 231 - Worship and Culture Worldwide"
+                                },
+                                {
+                                    "code": "MUSC 203",
+                                    "name": "MUSC 203 - Popular Music"
+                                },
+                                {
+                                    "code": "PHIL 137",
+                                    "name": "PHIL 137 - Disability, Community, and Advocacy"
+                                },
+                                {
+                                    "code": "PHIL 139",
+                                    "name": "PHIL 139 - Neurodiversity and Philosophy of Disability"
+                                },
+                                {
+                                    "code": "PHIL 207",
+                                    "name": "PHIL 207 - Justice and the Common Good: Studies in Political Philosophy"
+                                },
+                                {
+                                    "code": "PHIL 211",
+                                    "name": "PHIL 211 - Philosophy of Gender"
+                                },
+                                {
+                                    "code": "PHIL 225",
+                                    "name": "PHIL 225 - Public Philosophy"
+                                },
+                                {
+                                    "code": "PSYC 270",
+                                    "name": "PSYC 270 - Children at Risk"
+                                },
+                                {
+                                    "code": "PSYC 335",
+                                    "name": "PSYC 335 - Health Psychology"
+                                },
+                                {
+                                    "code": "PUBH 101",
+                                    "name": "PUBH 101 - Introduction to Public Health"
+                                },
+                                {
+                                    "code": "SOC 151",
+                                    "name": "SOC 151 - Sociological Principles and Perspectives"
+                                },
+                                {
+                                    "code": "SOC 201",
+                                    "name": "SOC 201 - Families"
+                                },
+                                {
+                                    "code": "SOC 250",
+                                    "name": "SOC 250 - Diversity and Inequality in the United States"
+                                },
+                                {
+                                    "code": "SOC 301",
+                                    "name": "SOC 301 - Gender and Sexuality in the United States"
+                                },
+                                {
+                                    "code": "SOC 303",
+                                    "name": "SOC 303 - Criminology"
+                                },
+                                {
+                                    "code": "SOWK 240",
+                                    "name": "SOWK 240 - Introduction to Social Work and Social Welfare"
+                                },
+                                {
+                                    "code": "SOWK 250",
+                                    "name": "SOWK 250 - Diversity and Inequality in the United States"
+                                },
+                                {
+                                    "code": "SOWK 360",
+                                    "name": "SOWK 360 - Social Welfare Policy and Advocacy"
+                                },
+                                {
+                                    "code": "SPAN 310",
+                                    "name": "SPAN 310 - Hispanic Culture in the United States"
+                                },
+                                {
+                                    "code": "STDC 343",
+                                    "name": "STDC 343 - Integrating Faith and Public Life"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Environmental Sustainability",
+                            "courses": [
+                                {
+                                    "code": "BIOL 123",
+                                    "name": "BIOL 123 - Living Systems"
+                                },
+                                {
+                                    "code": "BIOL 160",
+                                    "name": "BIOL 160 - Ecological and Evolutionary Systems"
+                                },
+                                {
+                                    "code": "BIOL 345",
+                                    "name": "BIOL 345 - Ecosystem Ecology and Management"
+                                },
+                                {
+                                    "code": "BIOL 346",
+                                    "name": "BIOL 346 - Plant Taxonomy"
+                                },
+                                {
+                                    "code": "BIOL 364",
+                                    "name": "BIOL 364 - Global Health, Environment, and Sustainability"
+                                },
+                                {
+                                    "code": "BIOL 371",
+                                    "name": "BIOL 371 - Tropical Ecosystems: Conservation and Development in Belize"
+                                },
+                                {
+                                    "code": "BIOL 372",
+                                    "name": "BIOL 372 - Dutch Sustainability: Is Orange the New Green?"
+                                },
+                                {
+                                    "code": "CHEM 171",
+                                    "name": "CHEM 171 - Chemistry, Policy, and the Future of Our Planet"
+                                },
+                                {
+                                    "code": "CHEM 172",
+                                    "name": "CHEM 172 - Water, Water, Water"
+                                },
+                                {
+                                    "code": "CHEM 371",
+                                    "name": "CHEM 371 - Chemistry and Sustainability: Life Cycle of an Electric Car"
+                                },
+                                {
+                                    "code": "ECON 232",
+                                    "name": "ECON 232 - Environmental Economics"
+                                },
+                                {
+                                    "code": "ECON 233",
+                                    "name": "ECON 233 - Economics of Energy and Sustainability"
+                                },
+                                {
+                                    "code": "ENGR 306",
+                                    "name": "ENGR 306 - Principles of Environmental Engineering"
+                                },
+                                {
+                                    "code": "GEO 210",
+                                    "name": "GEO 210 - Human Impacts on the Environment"
+                                },
+                                {
+                                    "code": "GEO 302",
+                                    "name": "GEO 302 - Environmental Law"
+                                },
+                                {
+                                    "code": "FREN 301",
+                                    "name": "FREN 301 - Advanced French I: Sustainability in France"
+                                },
+                                {
+                                    "code": "GEO 120",
+                                    "name": "GEO 120 - Earth Systems"
+                                },
+                                {
+                                    "code": "GEO 151",
+                                    "name": "GEO 151 - Introduction to Geology"
+                                },
+                                {
+                                    "code": "GEO 153",
+                                    "name": "GEO 153 - Great Lakes Geology"
+                                },
+                                {
+                                    "code": "GEO 181",
+                                    "name": "GEO 181 - First-Year Research in Earth Sciences: Dunes"
+                                },
+                                {
+                                    "code": "GEO 250",
+                                    "name": "GEO 250 - Meteorology"
+                                },
+                                {
+                                    "code": "GEO 251",
+                                    "name": "GEO 251 - Oceanography"
+                                },
+                                {
+                                    "code": "GEO 352",
+                                    "name": "GEO 352 - Sustainable Communities"
+                                },
+                                {
+                                    "code": "HIST 274",
+                                    "name": "HIST 274 - Environmental History"
+                                },
+                                {
+                                    "code": "HIST 280",
+                                    "name": "HIST 280 - Introduction to Archaeology"
+                                },
+                                {
+                                    "code": "HNRS 230",
+                                    "name": "HNRS 230 - Concepts and Methods in Science"
+                                },
+                                {
+                                    "code": "IDIS 162",
+                                    "name": "IDIS 162 - Sustainability Action Workshop"
+                                },
+                                {
+                                    "code": "IDIS 184",
+                                    "name": "IDIS 184 - Introduction to Sustainability Challenges"
+                                },
+                                {
+                                    "code": "IDIS 212",
+                                    "name": "IDIS 212 - Global Health"
+                                },
+                                {
+                                    "code": "IDIS 237",
+                                    "name": "IDIS 237 - Cohorts Intensive: Sustainability Fellows Travel"
+                                },
+                                {
+                                    "code": "IDIS 240",
+                                    "name": "IDIS 240 - Introduction to Archaeology"
+                                },
+                                {
+                                    "code": "PHIL 223",
+                                    "name": "PHIL 223 - Peaceable Kingdom"
+                                },
+                                {
+                                    "code": "PHYS 131",
+                                    "name": "PHYS 131 - Matter, Light, and Energy"
+                                },
+                                {
+                                    "code": "SCES 110",
+                                    "name": "SCES 110 - Science and a Changing World"
+                                },
+                                {
+                                    "code": "SCM 201",
+                                    "name": "SCM 201 - Introduction to Operations and Supply Chain Management"
+                                },
+                                {
+                                    "code": "STCR 225",
+                                    "name": "STCR 225 - Community in a Costa Rican Watershed"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Global Regions and Cultures",
+                            "courses": [
+                                {
+                                    "code": "ARTH 241",
+                                    "name": "ARTH 241 - Chinese Art History"
+                                },
+                                {
+                                    "code": "ARTH 243",
+                                    "name": "ARTH 243 - Japanese Art History"
+                                },
+                                {
+                                    "code": "BIOL 371",
+                                    "name": "BIOL 371 - Tropical Ecosystems: Conservation and Development in Belize"
+                                },
+                                {
+                                    "code": "BUS 190",
+                                    "name": "BUS 190 - Leadership in Kenya"
+                                },
+                                {
+                                    "code": "CORE 231",
+                                    "name": "CORE 231 - Off-Campus Global Regions and Cultures"
+                                },
+                                {
+                                    "code": "ECON 237",
+                                    "name": "ECON 237 - Regional Economies of the World"
+                                },
+                                {
+                                    "code": "ECON 337",
+                                    "name": "ECON 337 - World Poverty and Economic Development"
+                                },
+                                {
+                                    "code": "EDUC 250",
+                                    "name": "EDUC 250 - Social Studies Inquiry"
+                                },
+                                {
+                                    "code": "ENGL 300",
+                                    "name": "ENGL 300 - Advanced Studies in Global Literature"
+                                },
+                                {
+                                    "code": "FREN 202",
+                                    "name": "FREN 202 - Intermediate French II"
+                                },
+                                {
+                                    "code": "FREN 301",
+                                    "name": "FREN 301 - Advanced French I: Sustainability in France"
+                                },
+                                {
+                                    "code": "FREN 302",
+                                    "name": "FREN 302 - Advanced French II: Discovering the Arts"
+                                },
+                                {
+                                    "code": "FREN 320",
+                                    "name": "FREN 320 - May Study Abroad"
+                                },
+                                {
+                                    "code": "FREN 363",
+                                    "name": "FREN 363 - The Francophone World: North Africa"
+                                },
+                                {
+                                    "code": "GEO 110",
+                                    "name": "GEO 110 - World Regional Geography"
+                                },
+                                {
+                                    "code": "GEO 230",
+                                    "name": "GEO 230 - The Global Economy and Transforming Regions"
+                                },
+                                {
+                                    "code": "GERM 202",
+                                    "name": "GERM 202 - Intermediate German II"
+                                },
+                                {
+                                    "code": "GERM 301",
+                                    "name": "GERM 301 - Advanced German Language and Culture"
+                                },
+                                {
+                                    "code": "GERM 302",
+                                    "name": "GERM 302 - German Cultures and Intercultural Studies"
+                                },
+                                {
+                                    "code": "GERM 303",
+                                    "name": "GERM 303 - Topics in German Literature"
+                                },
+                                {
+                                    "code": "GERM 320",
+                                    "name": "GERM 320 - German Studies Abroad"
+                                },
+                                {
+                                    "code": "HIST 225",
+                                    "name": "HIST 225 - England"
+                                },
+                                {
+                                    "code": "HIST 233",
+                                    "name": "HIST 233 - Modern Middle East"
+                                },
+                                {
+                                    "code": "HIST 242",
+                                    "name": "HIST 242 - Africa and the World"
+                                },
+                                {
+                                    "code": "HIST 245",
+                                    "name": "HIST 245 - East Asia to 1800"
+                                },
+                                {
+                                    "code": "HIST 261",
+                                    "name": "HIST 261 - Ancient Mediterranean"
+                                },
+                                {
+                                    "code": "HIST 262",
+                                    "name": "HIST 262 - Early Medieval Worlds, 300-1000"
+                                },
+                                {
+                                    "code": "HIST 267",
+                                    "name": "HIST 267 - Modern Europe"
+                                },
+                                {
+                                    "code": "IDIS 212",
+                                    "name": "IDIS 212 - Global Health"
+                                },
+                                {
+                                    "code": "IDIS 220",
+                                    "name": "IDIS 220 - Chinese Medicine and Culture"
+                                },
+                                {
+                                    "code": "IDIS 231",
+                                    "name": "IDIS 231 - Cohorts Intensive: Arts Collective Travel"
+                                },
+                                {
+                                    "code": "MUSC 107",
+                                    "name": "MUSC 107 - World Music"
+                                },
+                                {
+                                    "code": "NURS 360",
+                                    "name": "NURS 360 - Exploring Culture, Health, Faith, and Nursing"
+                                },
+                                {
+                                    "code": "POLS 224",
+                                    "name": "POLS 224 - Contemporary Issues in Comparative Politics"
+                                },
+                                {
+                                    "code": "POLS 277",
+                                    "name": "POLS 277 - Asian Politics"
+                                },
+                                {
+                                    "code": "POLS 279",
+                                    "name": "POLS 279 - African Politics"
+                                },
+                                {
+                                    "code": "REL 353",
+                                    "name": "REL 353 - Islam"
+                                },
+                                {
+                                    "code": "SCM 311",
+                                    "name": "SCM 311 - Global Supply Chain Practicum II"
+                                },
+                                {
+                                    "code": "SOC 130",
+                                    "name": "SOC 130 - Introduction to Cultural Anthropology"
+                                },
+                                {
+                                    "code": "SOC 231",
+                                    "name": "SOC 231 - Intercultural Communication"
+                                },
+                                {
+                                    "code": "SOWK 260",
+                                    "name": "SOWK 260 - Global Issues and Perspectives"
+                                },
+                                {
+                                    "code": "SPAN 202",
+                                    "name": "SPAN 202 - Intermediate Spanish II"
+                                },
+                                {
+                                    "code": "SPAN 302",
+                                    "name": "SPAN 302 - Advanced Grammar, Composition and Conversation II"
+                                },
+                                {
+                                    "code": "SPAN 306",
+                                    "name": "SPAN 306 - Culture and Society in the Spanish-Speaking World"
+                                },
+                                {
+                                    "code": "SPAN 307",
+                                    "name": "SPAN 307 - Engaging Hispanic Culture in Place"
+                                },
+                                {
+                                    "code": "SPAN 309",
+                                    "name": "SPAN 309 - Introduction to the Hispanic World II"
+                                },
+                                {
+                                    "code": "STBR 312",
+                                    "name": "STBR 312 - Studies in British Culture"
+                                },
+                                {
+                                    "code": "STCR 225",
+                                    "name": "STCR 225 - Community in a Costa Rican Watershed"
+                                },
+                                {
+                                    "code": "STHU 210",
+                                    "name": "STHU 210 - Studies in Central European Culture"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Contemporary Challenges and Enduring Questions",
+                    "courses": [
+                        {
+                            "code": "ARTH 320",
+                            "name": "ARTH 320 - Classical Architecture from Antiquity to Now"
+                        },
+                        {
+                            "code": "ARTH 330",
+                            "name": "ARTH 330 - Art and Fashion"
+                        },
+                        {
+                            "code": "BIOL 395",
+                            "name": "BIOL 395 - Perspectives in Biology"
+                        },
+                        {
+                            "code": "BIOL 396",
+                            "name": "BIOL 396 - Perspectives in Medicine"
+                        },
+                        {
+                            "code": "BUS 393",
+                            "name": "BUS 393 - Strategic Management"
+                        },
+                        {
+                            "code": "MIN 372",
+                            "name": "MIN 372 - Congregations and the Common Good"
+                        },
+                        {
+                            "code": "COMM 330",
+                            "name": "COMM 330 - Media and Society"
+                        },
+                        {
+                            "code": "COMM 398",
+                            "name": "COMM 398 - Communication, Technology, and Society"
+                        },
+                        {
+                            "code": "CS 384",
+                            "name": "CS 384 - Perspectives on Computing"
+                        },
+                        {
+                            "code": "EDUC 359",
+                            "name": "EDUC 359 - Student Teaching Seminar"
+                        },
+                        {
+                            "code": "ENGL 395",
+                            "name": "ENGL 395 - Senior Seminar"
+                        },
+                        {
+                            "code": "ENGR 340",
+                            "name": "ENGR 340 - Senior Design Project"
+                        },
+                        {
+                            "code": "GCS 391",
+                            "name": "GCS 391 - Leading through Change"
+                        },
+                        {
+                            "code": "GEO 395",
+                            "name": "GEO 395 - Senior Seminar in Geology, Geography, and Environment"
+                        },
+                        {
+                            "code": "HIST 358",
+                            "name": "HIST 358 - Mythologies of the Frontier West"
+                        },
+                        {
+                            "code": "HIST 366",
+                            "name": "HIST 366 - The Use and Abuse of the Medieval Past"
+                        },
+                        {
+                            "code": "IDIS 310",
+                            "name": "IDIS 310 - Science in Society"
+                        },
+                        {
+                            "code": "IDIS 312",
+                            "name": "IDIS 312 - The Science and Art of Modern Medicine"
+                        },
+                        {
+                            "code": "KIN 332",
+                            "name": "KIN 332 - Philosophy of Physical Education and Sport"
+                        },
+                        {
+                            "code": "MATH 380",
+                            "name": "MATH 380 - Perspectives on Modern Mathematics"
+                        },
+                        {
+                            "code": "ML 326",
+                            "name": "ML 326 - Restorative Justice"
+                        },
+                        {
+                            "code": "NURS 380",
+                            "name": "NURS 380 - Critical Reflections on Health"
+                        },
+                        {
+                            "code": "PHIL 313",
+                            "name": "PHIL 313 - Emotions and Motivation"
+                        },
+                        {
+                            "code": "PHIL 318",
+                            "name": "PHIL 318 - Minds, Brains, and Persons"
+                        },
+                        {
+                            "code": "PPE 395",
+                            "name": "PPE 395 - Politics, Markets, and Morality"
+                        },
+                        {
+                            "code": "PSYC 399",
+                            "name": "PSYC 399 - Psychology and Religion"
+                        },
+                        {
+                            "code": "PUBH 385",
+                            "name": "PUBH 385 - The Impact of Clean Water: Honduras and Navajo Nation"
+                        },
+                        {
+                            "code": "PUBH 395",
+                            "name": "PUBH 395 - Human Flourishing through Public Health"
+                        },
+                        {
+                            "code": "RECR 310",
+                            "name": "RECR 310 - Theory and Philosophy of Therapeutic Recreation"
+                        },
+                        {
+                            "code": "SOWK 381",
+                            "name": "SOWK 381 - Social Work Capstone"
+                        },
+                        {
+                            "code": "SPAUD 399",
+                            "name": "SPAUD 399 - Critical Reflections in Speech Pathology"
+                        }
+                    ],
+                    "subsections": []
+                }
+            ]
+        }
+    ]
+}
