@@ -1,4 +1,5 @@
 import pandas as pd
+from helper_functions.helpers import CORE_STRUCT_DATA_PATH
 
 
 def main():
@@ -13,7 +14,7 @@ def main():
     # Print the Core Program structures to a text file for further analysis and processing
     print(
         core_struct_data.to_csv(index=False, header=False),
-        file=open("./data/core_struct_data.txt", "w"),
+        file=open(CORE_STRUCT_DATA_PATH, "w"),
         flush=True,
     )
 

@@ -1,125 +1,113 @@
-import re
 import pandas as pd
-from helpers import *
-from icecream import ic
 import streamlit as st
 
 
-def clean_main_dataframe(df: pd.DataFrame) -> pd.DataFrame:
-    # Dataframe column processing and cleanup
-    # Credits
-    df["Credits:"] = df["Credits:"].apply(lambda x: re.findall(r"\d+", x)[0])
-    # When Offered
-    df["When Offered:"] = df["When Offered:"].astype(str)
-    df["When Offered:"] = df["When Offered:"].apply(lambda x: x.split(", "))
-    df["Is Active"] = df["Is Active"].astype(bool)
+# 1. OPTIMIZATION: Cache data loading
+@st.cache_data
+def load_core_data(file_path):
+    return pd.read_csv(file_path)
 
-    return df
+
+def calculate_progress(registered_codes, core_df):
+    """
+    Optimized progress calculation using vectorization.
+    Only counts credits for courses that are in the Core Program.
+    """
+    # Filter core data to only courses that the student has registered for
+    completed_courses_df = core_df[core_df["course_code"].isin(registered_codes)]
+
+    # Group by sections to get total credits per section
+    # Note: If a course appears in multiple sections, this counts it for all of them
+    section_totals = completed_courses_df.groupby("sections")["credits"].sum().to_dict()
+
+    return section_totals
 
 
 def main():
-    st.set_page_config(page_title="Course Catalog Data", layout="wide")
+    st.set_page_config(page_title="Core Program Progress Tracker", layout="wide")
+    st.title("🎓 Core Program Progress Tracker")
 
-    with st.spinner("Loading data..."):
-        main_df = pd.read_csv(
-            open(MAIN_DATA_PATH, errors="replace"),
-            dtype=PREP_COLS_AND_TYPES,
-        )
-        # Drop the columns we don't need and clean up the data in the columns we do need
-        main_df = main_df[PREP_COLS]
-        main_df = clean_main_dataframe(main_df)
+    # Load data
+    core_struct_df = load_core_data("./data/core_program_dataframe.csv")
 
-        course_df = main_df[
-            [
-                "Course OID",
-                "Course Type",
-                "Prefix",
-                "Code",
-                "Name",
-                "Credits:",
-                "When Offered:",
-                "Is Active",
-                "Program Usage",
-                "Program OIDs",
-            ]
-        ]
-        course_df["Is Active"] = course_df["Is Active"].astype(bool)
-
-        program_df = pd.read_csv(open(PROGRAM_DATA_PATH, errors="replace"))
-        program_df["Is Active"] = program_df["Is Active"].astype(bool)
-        program_df = program_df[PREP_PROGRAM_COLS]
-
+    # Sidebar for transcript upload
     with st.sidebar:
-        st.title("Filters")
+        st.header("Transcript Upload")
+        file_uploaded = st.file_uploader(
+            "Upload Transcript (CSV or XLSX)", type=["csv", "xlsx"]
+        )
 
-        active_filter = st.checkbox("Show only active items", value=True)
+    registered_codes = []
+    if file_uploaded:
+        if file_uploaded.name.endswith(".csv"):
+            main_df = pd.read_csv(file_uploaded)
+        else:
+            main_df = pd.read_excel(file_uploaded)
 
-        programs = {
-            id: name
-            for id, name in zip(
-                program_df["Program OID"].unique(), program_df["Program Name"].unique()
+        if "Registration" in main_df.columns:
+            # Extract code (e.g., "CORE 100" from "CORE 100 - Community...")
+            registered_codes = (
+                main_df["Registration"].str.split(" - ").str[0].str.strip().tolist()
             )
-        }
+    else:
+        st.info("Please upload a transcript to see your progress.")
 
-        term_selection = st.selectbox("Term Filter", options=["FA", "SP", "SU"])
+    # --- KNOWLEDGE AND UNDERSTANDING (K&U) LOGIC ---
+    ku_mask = core_struct_df["categories"] == "KNOWLEDGE AND UNDERSTANDING"
+    ku_df = core_struct_df[ku_mask]
 
-        with st.form("program_filter_form"):
-            program_selection = st.selectbox(
-                "Filter by Program",
-                options=list(programs.keys()),
-                format_func=lambda x: programs[x],
+    # Get unique K&U sections and their requirements
+    ku_requirements = ku_df[
+        ["sections", "section_credit_min", "section_credit_max"]
+    ].drop_duplicates()
+
+    ku_sections_list = ku_requirements["sections"].tolist()
+
+    # Calculate completed credits per section
+    completed_section_data = calculate_progress(registered_codes, ku_df)
+
+    # Display Global K&U Progress
+    total_ku_credits = sum(completed_section_data.values())
+    target_total = 26
+
+    st.header("Knowledge and Understanding Summary")
+    col_total, col_prog = st.columns([1, 3])
+    with col_total:
+        st.metric("Total K&U Credits", f"{total_ku_credits} / {target_total}")
+    with col_prog:
+        st.write("Overall Progress")
+        st.progress(min(total_ku_credits / target_total, 1.0))
+
+    st.divider()
+
+    # --- INDIVIDUAL SECTION METRICS ---
+    st.subheader("Section Breakdown")
+
+    # Create rows of metrics (3 columns per row)
+    cols = st.columns(3)
+    for i, row in ku_requirements.iterrows():
+        section_name = row["sections"]
+        earned = completed_section_data.get(section_name, 0)
+        s_min = row["section_credit_min"]
+        s_max = row["section_credit_max"]
+
+        # Determine status color/label
+        if earned >= s_min and earned > 0:
+            status = "✅ Met" if earned <= s_max else "⚠️ Max Reached"
+        elif s_min == 0:
+            status = "Optional"
+        else:
+            status = f"Need {int(s_min - earned)} more"
+
+        with cols[i % 3]:
+            st.metric(
+                label=section_name,
+                value=f"{int(earned)} / {int(s_max)} hrs",
+                delta=status,
+                delta_color="normal" if earned >= s_min else "inverse",
+                border=True,
             )
-            submitted = st.form_submit_button("Apply Program Filter")
 
-    if active_filter:
-        course_df = course_df[course_df["Is Active"]]  # Filter out inactive courses
-        program_df = program_df[program_df["Is Active"]]  # Filter out inactive programs
-
-    # TODO - Add filters for programs and let the filter function on the course dataframe
-    # make the filter a selectbox with the unique values from the "Program OID" column in the program dataframe. Then filter the course dataframe based on the selected program OID.
-    filtered_df = course_df[
-        course_df["Program OIDs"].str.contains(str(program_selection), na=False)
-    ]
-
-    # TODO - Add a filter for the "When Offered:" column in the course dataframe.
-    # This should be a multiselect with the unique values from the "When Offered:" column in the course dataframe.
-    # Then filter the course dataframe based on the selected values.
-
-    filtered_df = filtered_df[
-        filtered_df["When Offered:"].apply(lambda x: term_selection in x)
-    ]
-
-    # TODO - Add a filter for the "Credits:" column in the course dataframe. This should be a selectbox with the unique values from the "Credits:" column in the course dataframe. Then filter the course dataframe based on the selected value.
-
-    # TODO - Add an accordian for each course that shows the course description and prerequisites when clicked. This should be done using the "Course OID" column in the course dataframe to match the course description and prerequisites from the main dataframe.
-
-    # TODO - Core Requirements Section
-    # Foundations
-    # Competencies and Skills
-    # Knowledge and Understanding
-    # Cross-Disciplinary Integration
-
-    # TODO - Knowledge and Understanding Calculator
-    # TODO - Scale up the K&U calculator to be a general calculator for core requirements
-    # Filter rows where the selection is part of the Program OIDs string
-    # Convert the ID to a string so .contains() can search for it in the text column
-
-    st.dataframe(
-        filtered_df,
-        width="stretch",
-        column_order=(
-            "Course OID",
-            "Course Type",
-            "Prefix",
-            "Code",
-            "Name",
-            "Credits:",
-            "When Offered:",
-            "Program Usage",
-        ),
-    )
-
-    print(programs, file=open("debug.txt", "w"), flush=True)
 
 if __name__ == "__main__":
     main()

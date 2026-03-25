@@ -1,3 +1,6 @@
+import re
+import pandas as pd
+
 PREP_COLS = [
     "Entity Type",
     "Entity OID",
@@ -60,5 +63,20 @@ PREP_PROGRAM_COLS_AND_TYPES = {
     "Is Active": bool,
 }
 
-MAIN_DATA_PATH = "./data/Catalog Draft 26-27.csv"
-PROGRAM_DATA_PATH = "./data/Programs 26-27.csv"
+MAIN_DATA_PATH = "../data/Catalog Draft 26-27.csv"
+PROGRAM_DATA_PATH = "../data/Programs 26-27.csv"
+CORE_STRUCT_DATA_PATH = "../data/core_struct_data.txt"
+CORE_JSON_PATH = "../data/core_struct_data_parsed.json"
+CORE_JSON_DATAFRAME_PATH = "../data/core_program_dataframe.csv"
+
+
+def clean_main_dataframe(df: pd.DataFrame) -> pd.DataFrame:
+    # Dataframe column processing and cleanup
+    # Credits
+    df["Credits:"] = df["Credits:"].apply(lambda x: re.findall(r"\d+", x)[0])
+    # When Offered
+    df["When Offered:"] = df["When Offered:"].astype(str)
+    df["When Offered:"] = df["When Offered:"].apply(lambda x: x.split(", "))
+    df["Is Active"] = df["Is Active"].astype(bool)
+
+    return df

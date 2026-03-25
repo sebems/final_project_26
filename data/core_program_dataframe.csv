@@ -1,0 +1,466 @@
+program_name,categories,sections,subsections,course_code,course_name,course_oid,credits,min_categories_credits,section_credit_min,section_credit_max
+Core Program,FOUNDATIONS,Community and Commitments,,CORE 100,CORE 100 - Community and Commitments,56814,2,8,,
+Core Program,FOUNDATIONS,Community and Commitments,,HNRS 110,HNRS 110 - Honors Community and Commitments,57138,2,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity I,,REL 121,REL 121 - Biblical Literature and Theology,56420,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity I,,REL 131,REL 131 - Christian Theology,56421,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity I,,HNRS 103,HNRS 103 - Foundations in Biblical Literature and Theology,56851,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,ENGL 250,ENGL 250 - Literature of Faith,56858,2,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,HIST 263,"HIST 263 - Medieval and Renaissance Europe, 1000-1500",56168,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,HIST 264,HIST 264 - The Reformation in Historical Context (1500-1700),56169,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,HNRS 203,HNRS 203 - Intermediate Studies in Biblical Literature and Theology,56852,2,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,PHIL 224,PHIL 224 - Glittering Vices: The Capital Vices and Christian Character,57031,2,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,PHIL 234,PHIL 234 - Augustine's Confessions: A Map of the Heart,57030,2,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,PHIL 251,PHIL 251 - Legacies of Thought: Ancient Philosophy and Medieval Christianity,56324,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,PHIL 252,PHIL 252 - The Christian Foundations of Modernity,56325,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,PHIL 293,"PHIL 293 - God, Freedom, and Evil",56738,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,POLS 306,"POLS 306 - God, Humanity, and the State",56369,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 211,REL 211 - From Creation to Promised Land,56422,2,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 212,REL 212 - From Conquest to Exile,56423,2,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 213,REL 213 - Psalms and Wisdom Literature,56424,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 214,REL 214 - Prophets,56425,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 221,REL 221 - Jesus in the Gospels and Acts,56426,2,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 222,REL 222 - The Gospel and Letters of John,56427,2,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 223,REL 223 - Paul's Letters,56428,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 224,REL 224 - Revelation and General Letters,56429,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 230,REL 230 - Revelation and Knowledge of God,56430,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 231,REL 231 - The Triune God,56431,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 232,REL 232 - Creation and Humanity,56432,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 233,REL 233 - Christ and Reconciliation,56433,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 234,REL 234 - Holy Spirit and Church,56434,2,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 235,REL 235 - The Christian Hope,56435,2,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 237,REL 237 - Christian Worship,56436,2,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 243,REL 243 - Theology: From the Early Church through the Middle Ages,56437,4,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 244,REL 244 - Theology: From the Reformation to the Present,56438,2,8,,
+Core Program,FOUNDATIONS,Foundations of Christianity II,,REL 251,REL 251 - Christianity and Religious Plurality,56439,4,8,,
+Core Program,COMPETENCIES AND SKILLS,Foundational Writing,,ENGL 101,ENGL 101 - Written Rhetoric,56027,4,10,,
+Core Program,COMPETENCIES AND SKILLS,Foundational Writing,Or,ENGL 100,ENGL 100 - Enhanced Written Rhetoric I,56026,2,10,,
+Core Program,COMPETENCIES AND SKILLS,Foundational Writing,Or,ENGL 102,ENGL 102 - Enhanced Written Rhetoric II,56028,4,10,,
+Core Program,COMPETENCIES AND SKILLS,Health and Movement (Personal Fitness),,PER 101,PER 101 - Jogging and Road Racing,56291,1,10,,
+Core Program,COMPETENCIES AND SKILLS,Health and Movement (Personal Fitness),,PER 102,PER 102 - Nordic Walking,56292,1,10,,
+Core Program,COMPETENCIES AND SKILLS,Health and Movement (Personal Fitness),,PER 103,PER 103 - Cycling,56293,1,10,,
+Core Program,COMPETENCIES AND SKILLS,Health and Movement (Personal Fitness),,PER 104,PER 104 - Core Strength Training and Balance,56294,1,10,,
+Core Program,COMPETENCIES AND SKILLS,Health and Movement (Personal Fitness),,PER 106,PER 106 - Cardio Cross Training,56295,1,10,,
+Core Program,COMPETENCIES AND SKILLS,Health and Movement (Personal Fitness),,PER 107,PER 107 - Strength and Conditioning,56296,1,10,,
+Core Program,COMPETENCIES AND SKILLS,Health and Movement (Personal Fitness),,PER 108,PER 108 - Aquatic Fitness,56297,1,10,,
+Core Program,COMPETENCIES AND SKILLS,Health and Movement (Personal Fitness),,PER 112,PER 112 - Special Topics in Personal Fitness,56298,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,KIN 223,"KIN 223 - Educational Health, Movement, and Dance",56214,2,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 124,PER 124 - Swim,56299,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 130,PER 130 - Women's Self Defense,56300,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 132,PER 132 - Golf Level I,56301,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 133,PER 133 - Golf Level II,56302,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 137,PER 137 - Bowling,56303,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 138,PER 138 - Backpacking I,56605,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 140,PER 140 - Special Topics: Lifetime and Leisure,56622,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 141,PER 141 - Rock Climbing I,56304,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 142,PER 142 - Rock Climbing II,56305,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 143,PER 143 - Paddling,56306,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 144,PER 144 - Frisbee,56307,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 173,PER 173 - Basketball,56308,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 174,PER 174 - Volleyball Level I,56309,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 175,PER 175 - Volleyball Level II,56310,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 177,PER 177 - Slow Pitch Softball,56311,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 180,PER 180 - Badminton Level I,56312,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 181,PER 181 - Badminton Level II,56313,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 182,PER 182 - Tennis Level I,56314,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 183,PER 183 - Tennis Level II,56315,1,10,,
+Core Program,COMPETENCIES AND SKILLS,"Health and Movement (Leisure, Sport, and Skills)",,PER 185,PER 185 - Soccer,56316,1,10,,
+Core Program,COMPETENCIES AND SKILLS,World Languages I,,CHIN 102,CHIN 102 - Elementary Chinese II,55946,4,10,,
+Core Program,COMPETENCIES AND SKILLS,World Languages I,,DUTC 102,DUTC 102 - Elementary Dutch II,55986,4,10,,
+Core Program,COMPETENCIES AND SKILLS,World Languages I,,FREN 102,FREN 102 - Elementary French II,56093,4,10,,
+Core Program,COMPETENCIES AND SKILLS,World Languages I,,FREN 150,FREN 150 - Accelerated Elementary French,56792,4,10,,
+Core Program,COMPETENCIES AND SKILLS,World Languages I,,GERM 102,GERM 102 - Elementary German II,56786,4,10,,
+Core Program,COMPETENCIES AND SKILLS,World Languages I,,KOR 102,KOR 102 - Elementary Korean II,56230,4,10,,
+Core Program,COMPETENCIES AND SKILLS,World Languages I,,LATN 102,LATN 102 - Elementary Latin II,56234,4,10,,
+Core Program,COMPETENCIES AND SKILLS,World Languages I,,SPAN 102,SPAN 102 - Elementary Spanish II,56492,4,10,,
+Core Program,COMPETENCIES AND SKILLS,World Languages I,,SPAN 150,SPAN 150 - Accelerated Elementary Spanish,56791,4,10,,
+Core Program,KNOWLEDGE AND UNDERSTANDING,World Languages II,,CHIN 201,CHIN 201 - Intermediate Chinese I,55947,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,World Languages II,,CHIN 202,CHIN 202 - Intermediate Chinese II,55948,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,World Languages II,,DUTC 201,DUTC 201 - Intermediate Dutch I,55987,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,World Languages II,,DUTC 202,DUTC 202 - Intermediate Dutch II,55988,2,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,World Languages II,,FREN 201,FREN 201 - Intermediate French I,56095,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,World Languages II,,FREN 202,FREN 202 - Intermediate French II,56096,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,World Languages II,,FREN 301,FREN 301 - Advanced French I: Sustainability in France,56097,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,World Languages II,,GERM 201,GERM 201 - Intermediate German I,56143,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,World Languages II,,GERM 202,GERM 202 - Intermediate German II,56144,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,World Languages II,,GERM 301,GERM 301 - Advanced German Language and Culture,56145,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,World Languages II,,KOR 201,KOR 201 - Intermediate Korean I,56231,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,World Languages II,,KOR 202,KOR 202 - Intermediate Korean II,56232,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,World Languages II,,SPAN 201,SPAN 201 - Intermediate Spanish I,56493,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,World Languages II,,SPAN 202,SPAN 202 - Intermediate Spanish II,56494,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,World Languages II,,SPAN 301,"SPAN 301 - Advanced Grammar, Composition and Conversation I",56495,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Arts Education,EDUC 210,EDUC 210 - Music and Art in the Elementary Classroom,56010,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Creative Writing,COMM 248,COMM 248 - Screenwriting,55910,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Creative Writing,ENGL 260,ENGL 260 - The Craft of Writing,56029,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Creative Writing,ENGL 360,ENGL 360 - Creative Writing: Nonfiction,56036,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Creative Writing,ENGL 361,ENGL 361 - Creative Writing: Poetry,56756,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Creative Writing,ENGL 362,ENGL 362 - Creative Writing: Fiction,56037,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Creative Writing,HNRS 211,HNRS 211 - Honors Creative Writing,57095,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Oral and Visual Rhetoric,ART 153,ART 153 - Visual Culture,55809,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Oral and Visual Rhetoric,COMM 101,COMM 101 - Oral Rhetoric,55899,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Oral and Visual Rhetoric,COMM 141,COMM 141 - Visual Rhetoric,55901,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Oral and Visual Rhetoric,COMM 200,COMM 200 - Advanced Oral Rhetoric,55905,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Oral and Visual Rhetoric,HNRS 212,HNRS 212 - Honors Rhetoric,57096,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Oral and Visual Rhetoric,IDIS 102,IDIS 102 - Oral Rhetoric for Engineers,56187,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,HNRS 213,HNRS 213 - Honors Performing Arts,57027,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,MUSC 100,MUSC 100 - Music Theory Fundamentals in Global Context,56261,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,MUSC 103,MUSC 103 - Understanding and Enjoying Music,56262,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,MUSC 106,MUSC 106 - American Music,56263,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,MUSC 107,MUSC 107 - World Music,56264,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,MUSC 117,MUSC 117 - Jazz Band,56266,1,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,MUSC 131,MUSC 131 - Campus Choir,56268,1,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,MUSC 141,MUSC 141 - Capella,56269,1,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,MUSC 151,MUSC 151 - Symphonic Band,56270,1,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,MUSC 161,MUSC 161 - Wind Ensemble,56271,1,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,MUSC 171,MUSC 171 - Orchestra,56272,1,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,MUSC 182,MUSC 182 - Gospel Choir,56274,1,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,MUSC 191,MUSC 191 - Women's Chorale,56275,1,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,MUSC 203,MUSC 203 - Popular Music,56277,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,MUSC 236,MUSC 236 - Music in Worship,56282,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,THTR 120,THTR 120 - Calvin Theatre Company,55900,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,THTR 203,THTR 203 - Introduction to Performance Studies,55907,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Performing Arts,THTR 323,THTR 323 - Acting,57080,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,ARTH 121,"ARTH 121 - Late Medieval Art, 1250-1400",56830,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,ARTH 131,"ARTH 131 - Renaissance and Baroque Europe, 1400-1700",56831,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,ARTH 133,ARTH 133 - 18th- and 19th-Century European Art,56942,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,ARTH 141,"ARTH 141 - Modern Art, 1900-1960",56832,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,ARTH 151,"ARTH 151 - Contemporary Art, 1960-2020",56833,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,ARTH 241,ARTH 241 - Chinese Art History,55813,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,ARTH 243,ARTH 243 - Japanese Art History,56943,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,ARTS 250,ARTS 250 - Introduction to Drawing,55814,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,ARTS 251,ARTS 251 - Introduction to Painting,55815,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,ARTS 254,ARTS 254 - Introduction to Graphic Design,56688,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,ARTS 256,ARTS 256 - Introduction to Photography,55818,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,ARTS 258,ARTS 258 - Introduction to Ceramics,55820,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,COMM 145,COMM 145 - Introduction to Film and Media,55902,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,COMM 180,COMM 180 - Communicating with Digital Media,55903,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,COMM 190,COMM 190 - Media Production I,55904,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,COMM 255,COMM 255 - Documentary Film and Television,55914,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,FREN 375,FREN 375 - French Cinema,56104,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,"Arts, Oral Rhetoric, Visual Rhetoric",Visual Arts,HNRS 214,HNRS 214 - Honors Visual Art,57097,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Classics,CLAS 211,CLAS 211 - Classical Literature,55953,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Classics,CLAS 231,CLAS 231 - Classical Mythology,55954,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,ENGL 200,ENGL 200 - Introduction to Global Literature,56739,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,ENGL 205,ENGL 205 - Special Topics,56740,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,ENGL 210,ENGL 210 - Introduction to Early British Literature,56741,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,ENGL 215,ENGL 215 - Introduction to Later British Literature,56742,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,ENGL 220,ENGL 220 - Introduction to American Literature,56743,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,ENGL 230,ENGL 230 - Introduction to Genre,56744,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,ENGL 235,ENGL 235 - Major Text,57023,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,ENGL 300,ENGL 300 - Advanced Studies in Global Literature,56034,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,ENGL 305,ENGL 305 - Advanced Special Topics,56745,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,ENGL 310,ENGL 310 - Advanced Studies in Early British Literature,56746,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,ENGL 315,ENGL 315 - Advanced Studies in Later British Literature,56747,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,ENGL 320,ENGL 320 - Advanced Studies in American Literature,56748,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,ENGL 352,ENGL 352 - The Teaching of Adolescent Literature,56749,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,ENGL 330,ENGL 330 - Advanced Studies in Genre,56750,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,ENGL 335,ENGL 335 - Advanced Studies in a Major Author,56751,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,FREN 351,FREN 351 - French Culture I,56099,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,FREN 352,FREN 352 - French Culture II,56106,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,FREN 381,FREN 381 - Special Topics,56105,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,GERM 303,GERM 303 - Topics in German Literature,56147,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,HNRS 222,HNRS 222 - Honors Literature,57098,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,SPAN 309,SPAN 309 - Introduction to the Hispanic World II,56498,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Literature,STBR 210,STBR 210 - Disciplinary course of the director,56545,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 151,HIST 151 - History of the West and the World I,56153,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 152,HIST 152 - History of the West and the World II,56154,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 153,HIST 153 - Explorations in World History,56580,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 203,HIST 203 - Reacting to the Past: History Role-Playing Game,57195,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 225,HIST 225 - England,56155,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 229,HIST 229 - Seminar in United States History,56156,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 233,HIST 233 - Modern Middle East,56157,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 242,HIST 242 - Africa and the World,56158,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 245,HIST 245 - East Asia to 1800,56159,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 250,HIST 250 - Native American History,57083,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 251,HIST 251 - Early America,56160,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 252,HIST 252 - America from Republic to Empire,56161,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 253,HIST 253 - Recent America,56162,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 255,HIST 255 - African-American History,56163,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 256,HIST 256 - Women and Gender in US History,56611,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 258,HIST 258 - US Military History,56164,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 259,HIST 259 - American Economic and Business History,56165,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 261,HIST 261 - Ancient Mediterranean,56166,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 262,"HIST 262 - Early Medieval Worlds, 300-1000",56167,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 267,HIST 267 - Modern Europe,56170,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 271,HIST 271 - War and Society,56171,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 274,HIST 274 - Environmental History,56172,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HIST 280,HIST 280 - Introduction to Archaeology,56736,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,HNRS 223,HNRS 223 - Honors History,57099,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,IDIS 206,IDIS 206 - Introduction to Medieval Studies,56193,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,IDIS 210,IDIS 210 - Introduction to the Digital Humanities,56647,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,IDIS 240,IDIS 240 - Introduction to Archaeology,56195,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,History,SPAN 308,SPAN 308 - Introduction to the Hispanic World I,56497,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Philosophy,HNRS 224,HNRS 224 - Honors Philosophy,56853,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Philosophy,PHIL 137,"PHIL 137 - Disability, Community, and Advocacy",56846,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Philosophy,PHIL 139,PHIL 139 - Neurodiversity and Philosophy of Disability,57851,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Philosophy,PHIL 151,PHIL 151 - Philosophical Explorations,57028,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Philosophy,PHIL 153,PHIL 153 - Fundamental Questions in Philosophy,56317,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Philosophy,PHIL 205,PHIL 205 - Ethics,56320,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Philosophy,PHIL 207,PHIL 207 - Justice and the Common Good: Studies in Political Philosophy,56321,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Philosophy,PHIL 211,PHIL 211 - Philosophy of Gender,56322,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Philosophy,PHIL 212,PHIL 212 - Ethical Dimensions of Health Care,56323,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Philosophy,PHIL 218,"PHIL 218 - AI and You: Sex, Care, and War in an Age of Intelligent Bots",57029,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Philosophy,PHIL 223,PHIL 223 - Peaceable Kingdom,56843,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Philosophy,PHIL 225,PHIL 225 - Public Philosophy,56845,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Philosophy,PHIL 233,PHIL 233 - Philosophical Transformation,56844,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Philosophy,PHIL 235,"PHIL 235 - I Long, Therefore I Am",56842,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Religion,HNRS 225,HNRS 225 - Honors Religion,57100,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Religion,REL 255,REL 255 - World Religions,56441,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Religion,REL 261,REL 261 - Christianity and Culture,56442,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Religion,REL 262,REL 262 - Social Justice from the Prophets to Jesus,56628,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Religion,REL 263,"REL 263 - Theology, Beauty, and the Arts",56629,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Religion,REL 353,REL 353 - Islam,56451,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Religion,REL 356,REL 356 - Confucianism,56453,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Theory & Criticism,COMM 254,COMM 254 - Screen Storytelling: Theory and Criticism,55913,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Theory & Criticism,COMM 305,COMM 305 - Persuasion and Propaganda,55920,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Theory & Criticism,PHIL 202,"PHIL 202 - Philosophy, Politics, and Law",56319,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Theory & Criticism,POLS 110,POLS 110 - Foundations of Political Community,56357,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Theory & Criticism,POLS 240,"POLS 240 - Freedom, Justice, and Political Authority",56365,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Humanities,Theory & Criticism,POLS 242,"POLS 242 - Philosophy, Politics, and Law",56793,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,CS 100,CS 100 - Creating Interactive Web Media,55961,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,CS 106,CS 106 - Introduction to Scientific Computation and Modeling,55963,3,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,CS 108,CS 108 - Introduction to Computing,55964,3,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,DATA 102,DATA 102 - Foundations of Data Science and Analytics,56827,2,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,ECON 243,ECON 243 - Introductory Econometrics,57075,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,HNRS 251,HNRS 251 - Honors Computer Science,57197,2,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,MATH 100,MATH 100 - Mathematics in the Contemporary World,56235,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,MATH 132,"MATH 132 - Calculus for Management, Life, and Social Sciences",56236,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,MATH 161,MATH 161 - Calculus: Modeling and Computation,57855,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,MATH 162,MATH 162 - Differential and Integral Calculus,57856,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,MATH 221,MATH 221 - The Real Number System and Methods for Elementary School Teachers,56240,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,POLS 253,POLS 253 - Introductory Econometrics,56794,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,PSYC 255,PSYC 255 - Statistics and Research Design,56387,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,SOC 255,SOC 255 - Social Science Statistics,56467,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,SOWK 255,SOWK 255 - Social Science Statistics,56480,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,STAT 143,STAT 143 - Introduction to Probability and Statistics,56536,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Mathematical Sciences,,STAT 145,STAT 145 - Biostatistics,56537,4,26,0.0,4.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Physics & Astronomy,ASTR 110,"ASTR 110 - Planets, Stars, and Galaxies",55839,4,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Physics & Astronomy,ASTR 111,ASTR 111 - The Solar System,55840,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Physics & Astronomy,ASTR 112,"ASTR 112 - Stars, Galaxies, and the Universe",55841,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Physics & Astronomy,ASTR 201,ASTR 201 - Astrophysical Black Holes,56829,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Physics & Astronomy,ASTR 211,ASTR 211 - Planetary and Stellar Astronomy,55842,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Physics & Astronomy,HNRS 232,HNRS 232 - Honors Physics and Astronomy,57101,2,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Physics & Astronomy,PHYS 130,"PHYS 130 - Particles, Nuclei, and Astronomy",56947,1,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Physics & Astronomy,PHYS 131,"PHYS 131 - Matter, Light, and Energy",56332,1,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Physics & Astronomy,PHYS 133,PHYS 133 - Introductory Physics: Mechanics and Gravity,56333,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Physics & Astronomy,PHYS 212,PHYS 212 - Inquiry-Based Physics,56335,4,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Physics & Astronomy,PHYS 221,PHYS 221 - General Physics,56336,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Physics & Astronomy,PHYS 223,PHYS 223 - Physics for the Health Sciences,56338,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Biology,BIOL 113,BIOL 113 - Contemporary Topics in Biology,57137,2,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Biology,BIOL 115,BIOL 115 - Essentials of Human Anatomy and Physiology,55847,4,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Biology,BIOL 123,BIOL 123 - Living Systems,55848,4,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Biology,BIOL 141,BIOL 141 - Cell Biology and Genetics for the Health Sciences,55849,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Biology,BIOL 160,BIOL 160 - Ecological and Evolutionary Systems,55850,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Biology,BIOL 161,BIOL 161 - Cellular and Genetic Systems,55851,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Biology,HNRS 230,HNRS 230 - Concepts and Methods in Science,56855,4,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Biology,HNRS 233,HNRS 233 - Honors Biology,57026,2,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Biology,SCES 110,SCES 110 - Science and a Changing World,56838,4,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Chemistry,CHEM 100,CHEM 100 - The Molecular World,55929,4,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Chemistry,CHEM 101,CHEM 101 - General Chemistry I,55930,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Chemistry,CHEM 103,CHEM 103 - Accelerated General Chemistry,55932,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Chemistry,CHEM 121,CHEM 121 - Culinary Medicine,57022,2,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Chemistry,CHEM 160,CHEM 160 - Chemistry for the Health Sciences,55933,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Chemistry,CHEM 171,"CHEM 171 - Chemistry, Policy, and the Future of Our Planet",57021,2,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Chemistry,CHEM 172,"CHEM 172 - Water, Water, Water",57081,2,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Chemistry,HNRS 234,HNRS 234 - Honors Chemistry,57102,2,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Chemistry,SCES 210,SCES 210 - Science Content and Processes,56839,4,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Geology & Earth Sciences,GEO 120,GEO 120 - Earth Systems,56108,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Geology & Earth Sciences,GEO 151,GEO 151 - Introduction to Geology,56128,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Geology & Earth Sciences,GEO 153,GEO 153 - Great Lakes Geology,56130,4,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Geology & Earth Sciences,GEO 181,GEO 181 - First-Year Research in Earth Sciences: Dunes,56109,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Geology & Earth Sciences,GEO 250,GEO 250 - Meteorology,56114,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Geology & Earth Sciences,GEO 251,GEO 251 - Oceanography,56133,3,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Natural Sciences,Geology & Earth Sciences,HNRS 235,HNRS 235 - Honors Geology and Earth Science,57103,2,26,0.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Economics,ECON 191,ECON 191 - Introduction to Economics,55992,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Economics,ECON 221,ECON 221 - Principles of Microeconomics,55993,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Economics,ECON 222,ECON 222 - Principles of Macroeconomics,55994,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Economics,ECON 232,ECON 232 - Environmental Economics,55995,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Economics,ECON 233,ECON 233 - Economics of Energy and Sustainability,56606,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Economics,ECON 237,ECON 237 - Regional Economies of the World,55996,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Economics,ECON 241,ECON 241 - Health Economics and Health Policy,55997,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Economics,HNRS 241,HNRS 241 - Honors Economics,57104,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Geography,GEO 101,"GEO 101 - People, Place, and Community",56111,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Geography,GEO 110,GEO 110 - World Regional Geography,56107,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Geography,HNRS 242,HNRS 242 - Honors Geography,57105,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Linguistics,ENGL 372,ENGL 372 - Sociolinguistics and Issues in Language Education,56041,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Linguistics,SPAN 341,"SPAN 341 - Spanish Phonology, Dialectology, and Sociolinguistics",56500,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Political Science,HNRS 243,HNRS 243 - Honors Political Science,57106,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Political Science,POLS 151,POLS 151 - Foundations of Social Research,56366,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Political Science,POLS 212,POLS 212 - Institutions and Politics of US Public Policy,56361,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Political Science,POLS 214,POLS 214 - Governments and Globalization,56362,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Political Science,POLS 217,POLS 217 - International Cooperation and Conflict,56359,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Political Science,POLS 219,POLS 219 - Institutions and Politics of US Foreign Policy,56953,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Political Science,POLS 224,POLS 224 - Contemporary Issues in Comparative Politics,56955,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Political Science,POLS 227,POLS 227 - Contemporary Issues in International Politics,56957,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Political Science,POLS 229,POLS 229 - Contemporary Issues in US Foreign Policy,56958,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Political Science,POLS 234,POLS 234 - The President and Congress,56363,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Political Science,POLS 237,POLS 237 - Political Parties and Interest Groups,56364,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Political Science,POLS 277,POLS 277 - Asian Politics,56573,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Political Science,POLS 279,POLS 279 - African Politics,56367,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Psychology,EDUC 241,"EDUC 241 - Inclusive Teaching: Ability, Language, and Multicultural Education",56861,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Psychology,HNRS 244,HNRS 244 - Honors Psychology,57107,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Psychology,PSYC 151,PSYC 151 - Introductory Psychology: Perspectives on the Self,56382,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Sociology and Social Work,EDUC 240,EDUC 240 - The Social Context of Education,56959,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Sociology and Social Work,HNRS 245,HNRS 245 - Honors Sociology and Social Work,57108,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Sociology and Social Work,SOC 130,SOC 130 - Introduction to Cultural Anthropology,56463,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Sociology and Social Work,SOC 151,SOC 151 - Sociological Principles and Perspectives,56462,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Sociology and Social Work,SOC 201,SOC 201 - Families,56469,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Sociology and Social Work,SOC 202,SOC 202 - Urban Sociology,56468,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Sociology and Social Work,SOC 203,SOC 203 - Sociology of Deviance,56470,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Sociology and Social Work,SOC 250,SOC 250 - Diversity and Inequality in the United States,56465,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Sociology and Social Work,SOC 301,SOC 301 - Gender and Sexuality in the United States,56592,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Sociology and Social Work,SOC 303,SOC 303 - Criminology,56464,4,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Sociology and Social Work,SOWK 240,SOWK 240 - Introduction to Social Work and Social Welfare,56478,2,26,2.0,6.0
+Core Program,KNOWLEDGE AND UNDERSTANDING,Social and Behavioral Sciences,Sociology and Social Work,SOWK 250,SOWK 250 - Diversity and Inequality in the United States,56479,4,26,2.0,6.0
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,ASC 140,ASC 140 - First-Generation Student Experience,57200,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,BUS 392,BUS 392 - Business Ethics,55886,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,COMM 141,COMM 141 - Visual Rhetoric,55901,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,EDUC 240,EDUC 240 - The Social Context of Education,56959,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,FREN 361,FREN 361 - The Francophone World: Quebec,56100,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,GEO 101,"GEO 101 - People, Place, and Community",56111,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,HIST 229,HIST 229 - Seminar in United States History,56156,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,HIST 250,HIST 250 - Native American History,57083,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,HIST 251,HIST 251 - Early America,56160,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,HIST 252,HIST 252 - America from Republic to Empire,56161,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,HIST 253,HIST 253 - Recent America,56162,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,HIST 255,HIST 255 - African-American History,56163,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,HIST 256,HIST 256 - Women and Gender in US History,56611,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,HIST 258,HIST 258 - US Military History,56164,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,HIST 356,HIST 356 - American Social and Cultural History,56178,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,IDIS 175,IDIS 175 - Who Am I? Helping Professionals Grow Self-Awareness Abroad,57040,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,IDIS 232,IDIS 232 - Cohorts Intensive: Common Good Collective Travel,57135,1,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,MIN 231,MIN 231 - Worship and Culture Worldwide,57871,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,MUSC 203,MUSC 203 - Popular Music,56277,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,PHIL 137,"PHIL 137 - Disability, Community, and Advocacy",56846,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,PHIL 139,PHIL 139 - Neurodiversity and Philosophy of Disability,57851,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,PHIL 207,PHIL 207 - Justice and the Common Good: Studies in Political Philosophy,56321,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,PHIL 211,PHIL 211 - Philosophy of Gender,56322,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,PHIL 225,PHIL 225 - Public Philosophy,56845,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,PSYC 270,PSYC 270 - Children at Risk,56790,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,PSYC 335,PSYC 335 - Health Psychology,56395,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,PUBH 101,PUBH 101 - Introduction to Public Health,56403,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,SOC 151,SOC 151 - Sociological Principles and Perspectives,56462,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,SOC 201,SOC 201 - Families,56469,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,SOC 250,SOC 250 - Diversity and Inequality in the United States,56465,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,SOC 301,SOC 301 - Gender and Sexuality in the United States,56592,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,SOC 303,SOC 303 - Criminology,56464,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,SOWK 240,SOWK 240 - Introduction to Social Work and Social Welfare,56478,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,SOWK 250,SOWK 250 - Diversity and Inequality in the United States,56479,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,SOWK 360,SOWK 360 - Social Welfare Policy and Advocacy,56484,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,SPAN 310,SPAN 310 - Hispanic Culture in the United States,57041,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Diversity and Difference,STDC 343,STDC 343 - Integrating Faith and Public Life,56546,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,BIOL 123,BIOL 123 - Living Systems,55848,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,BIOL 160,BIOL 160 - Ecological and Evolutionary Systems,55850,3,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,BIOL 345,BIOL 345 - Ecosystem Ecology and Management,55870,3,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,BIOL 346,BIOL 346 - Plant Taxonomy,55871,3,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,BIOL 364,"BIOL 364 - Global Health, Environment, and Sustainability",55873,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,BIOL 371,BIOL 371 - Tropical Ecosystems: Conservation and Development in Belize,57039,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,BIOL 372,BIOL 372 - Dutch Sustainability: Is Orange the New Green?,57015,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,CHEM 171,"CHEM 171 - Chemistry, Policy, and the Future of Our Planet",57021,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,CHEM 172,"CHEM 172 - Water, Water, Water",57081,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,CHEM 371,CHEM 371 - Chemistry and Sustainability: Life Cycle of an Electric Car,57046,1,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,ECON 232,ECON 232 - Environmental Economics,55995,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,ECON 233,ECON 233 - Economics of Energy and Sustainability,56606,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,ENGR 306,ENGR 306 - Principles of Environmental Engineering,56058,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,GEO 210,GEO 210 - Human Impacts on the Environment,56089,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,GEO 302,GEO 302 - Environmental Law,56090,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,FREN 301,FREN 301 - Advanced French I: Sustainability in France,56097,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,GEO 120,GEO 120 - Earth Systems,56108,3,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,GEO 151,GEO 151 - Introduction to Geology,56128,3,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,GEO 153,GEO 153 - Great Lakes Geology,56130,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,GEO 181,GEO 181 - First-Year Research in Earth Sciences: Dunes,56109,3,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,GEO 250,GEO 250 - Meteorology,56114,3,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,GEO 251,GEO 251 - Oceanography,56133,3,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,GEO 352,GEO 352 - Sustainable Communities,56122,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,HIST 274,HIST 274 - Environmental History,56172,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,HIST 280,HIST 280 - Introduction to Archaeology,56736,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,HNRS 230,HNRS 230 - Concepts and Methods in Science,56855,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,IDIS 162,IDIS 162 - Sustainability Action Workshop,57136,1,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,IDIS 184,IDIS 184 - Introduction to Sustainability Challenges,56049,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,IDIS 212,IDIS 212 - Global Health,56194,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,IDIS 237,IDIS 237 - Cohorts Intensive: Sustainability Fellows Travel,57133,1,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,IDIS 240,IDIS 240 - Introduction to Archaeology,56195,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,PHIL 223,PHIL 223 - Peaceable Kingdom,56843,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,PHYS 131,"PHYS 131 - Matter, Light, and Energy",56332,1,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,SCES 110,SCES 110 - Science and a Changing World,56838,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,SCM 201,SCM 201 - Introduction to Operations and Supply Chain Management,56822,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Environmental Sustainability,STCR 225,STCR 225 - Community in a Costa Rican Watershed,57132,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,ARTH 241,ARTH 241 - Chinese Art History,55813,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,ARTH 243,ARTH 243 - Japanese Art History,56943,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,BIOL 371,BIOL 371 - Tropical Ecosystems: Conservation and Development in Belize,57039,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,BUS 190,BUS 190 - Leadership in Kenya,56860,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,CORE 231,CORE 231 - Off-Campus Global Regions and Cultures,57079,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,ECON 237,ECON 237 - Regional Economies of the World,55996,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,ECON 337,ECON 337 - World Poverty and Economic Development,56003,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,EDUC 250,EDUC 250 - Social Studies Inquiry,56961,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,ENGL 300,ENGL 300 - Advanced Studies in Global Literature,56034,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,FREN 202,FREN 202 - Intermediate French II,56096,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,FREN 301,FREN 301 - Advanced French I: Sustainability in France,56097,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,FREN 302,FREN 302 - Advanced French II: Discovering the Arts,56098,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,FREN 320,FREN 320 - May Study Abroad,56859,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,FREN 363,FREN 363 - The Francophone World: North Africa,56102,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,GEO 110,GEO 110 - World Regional Geography,56107,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,GEO 230,GEO 230 - The Global Economy and Transforming Regions,56112,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,GERM 202,GERM 202 - Intermediate German II,56144,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,GERM 301,GERM 301 - Advanced German Language and Culture,56145,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,GERM 302,GERM 302 - German Cultures and Intercultural Studies,56146,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,GERM 303,GERM 303 - Topics in German Literature,56147,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,GERM 320,GERM 320 - German Studies Abroad,56811,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,HIST 225,HIST 225 - England,56155,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,HIST 233,HIST 233 - Modern Middle East,56157,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,HIST 242,HIST 242 - Africa and the World,56158,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,HIST 245,HIST 245 - East Asia to 1800,56159,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,HIST 261,HIST 261 - Ancient Mediterranean,56166,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,HIST 262,"HIST 262 - Early Medieval Worlds, 300-1000",56167,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,HIST 267,HIST 267 - Modern Europe,56170,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,IDIS 212,IDIS 212 - Global Health,56194,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,IDIS 220,IDIS 220 - Chinese Medicine and Culture,56812,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,IDIS 231,IDIS 231 - Cohorts Intensive: Arts Collective Travel,57134,1,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,MUSC 107,MUSC 107 - World Music,56264,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,NURS 360,"NURS 360 - Exploring Culture, Health, Faith, and Nursing",57131,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,POLS 224,POLS 224 - Contemporary Issues in Comparative Politics,56955,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,POLS 277,POLS 277 - Asian Politics,56573,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,POLS 279,POLS 279 - African Politics,56367,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,REL 353,REL 353 - Islam,56451,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,SCM 311,SCM 311 - Global Supply Chain Practicum II,57016,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,SOC 130,SOC 130 - Introduction to Cultural Anthropology,56463,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,SOC 231,SOC 231 - Intercultural Communication,56466,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,SOWK 260,SOWK 260 - Global Issues and Perspectives,56481,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,SPAN 202,SPAN 202 - Intermediate Spanish II,56494,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,SPAN 302,"SPAN 302 - Advanced Grammar, Composition and Conversation II",56496,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,SPAN 306,SPAN 306 - Culture and Society in the Spanish-Speaking World,57189,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,SPAN 307,SPAN 307 - Engaging Hispanic Culture in Place,56816,2,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,SPAN 309,SPAN 309 - Introduction to the Hispanic World II,56498,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,STBR 312,STBR 312 - Studies in British Culture,56544,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,STCR 225,STCR 225 - Community in a Costa Rican Watershed,57132,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Engaged Citizenship Commitments,Global Regions and Cultures,STHU 210,STHU 210 - Studies in Central European Culture,56550,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,ARTH 320,ARTH 320 - Classical Architecture from Antiquity to Now,56836,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,ARTH 330,ARTH 330 - Art and Fashion,56835,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,BIOL 395,BIOL 395 - Perspectives in Biology,55876,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,BIOL 396,BIOL 396 - Perspectives in Medicine,55877,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,BUS 393,BUS 393 - Strategic Management,55897,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,MIN 372,MIN 372 - Congregations and the Common Good,57082,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,COMM 330,COMM 330 - Media and Society,55909,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,COMM 398,"COMM 398 - Communication, Technology, and Society",56828,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,CS 384,CS 384 - Perspectives on Computing,55980,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,EDUC 359,EDUC 359 - Student Teaching Seminar,56967,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,ENGL 395,ENGL 395 - Senior Seminar,56046,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,ENGR 340,ENGR 340 - Senior Design Project,56084,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,GCS 391,GCS 391 - Leading through Change,57143,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,GEO 395,"GEO 395 - Senior Seminar in Geology, Geography, and Environment",56127,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,HIST 358,HIST 358 - Mythologies of the Frontier West,56179,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,HIST 366,HIST 366 - The Use and Abuse of the Medieval Past,57193,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,IDIS 310,IDIS 310 - Science in Society,56196,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,IDIS 312,IDIS 312 - The Science and Art of Modern Medicine,57190,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,KIN 332,KIN 332 - Philosophy of Physical Education and Sport,56224,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,MATH 380,MATH 380 - Perspectives on Modern Mathematics,56257,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,ML 326,ML 326 - Restorative Justice,56621,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,NURS 380,NURS 380 - Critical Reflections on Health,56289,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,PHIL 313,PHIL 313 - Emotions and Motivation,56841,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,PHIL 318,"PHIL 318 - Minds, Brains, and Persons",56326,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,PPE 395,"PPE 395 - Politics, Markets, and Morality",56837,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,PSYC 399,PSYC 399 - Psychology and Religion,56402,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,PUBH 385,PUBH 385 - The Impact of Clean Water: Honduras and Navajo Nation,56813,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,PUBH 395,PUBH 395 - Human Flourishing through Public Health,56407,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,RECR 310,RECR 310 - Theory and Philosophy of Therapeutic Recreation,56411,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,SOWK 381,SOWK 381 - Social Work Capstone,56489,4,8,,
+Core Program,CROSS-DISCIPLINARY INTEGRATION,Contemporary Challenges and Enduring Questions,,SPAUD 399,SPAUD 399 - Critical Reflections in Speech Pathology,56531,4,8,,

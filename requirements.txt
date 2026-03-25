@@ -1,4 +1,5 @@
 dotenv
 icecream
+openpyxl
 requests
 streamlit

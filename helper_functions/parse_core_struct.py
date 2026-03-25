@@ -1,9 +1,7 @@
 import re
 import json
 import pandas as pd
-
-
-DEBUG = False
+from helper_functions.helpers import CORE_STRUCT_DATA_PATH
 
 
 def sanitize(input_file_name, output_file_name):
@@ -24,10 +22,9 @@ def sanitize(input_file_name, output_file_name):
                 outfile.write(clean_line + "\n")
 
 
-
 def parse_core_struct_data(file_name) -> dict:
     core_struct = {"program_name": "Core Program", "categories": []}
-    
+
     with open(file_name, "r") as infile:
         for line in infile:
             # 1. CLEANING
@@ -35,8 +32,12 @@ def parse_core_struct_data(file_name) -> dict:
             content = line.strip()
 
             # Pointers to the most recently created objects
-            last_cat = core_struct["categories"][-1] if core_struct["categories"] else None
-            last_sec = last_cat["sections"][-1] if last_cat and last_cat["sections"] else None
+            last_cat = (
+                core_struct["categories"][-1] if core_struct["categories"] else None
+            )
+            last_sec = (
+                last_cat["sections"][-1] if last_cat and last_cat["sections"] else None
+            )
 
             # 3. CATEGORY (Tab 0, starts with -)
             if tab_count == 0 and content.startswith("-"):
@@ -46,11 +47,14 @@ def parse_core_struct_data(file_name) -> dict:
             # 4. SECTION (Tab 1, starts with -)
             elif tab_count == 1 and content.startswith("-"):
                 name = content.lstrip("- ").strip()
-                last_cat["sections"].append({"name": name, "courses": [], "subsections": []})
+                last_cat["sections"].append(
+                    {"name": name, "courses": [], "subsections": []}
+                )
 
             # 5. SUBSECTION (Tab 1 without dash OR Tab 2 with dash)
-            elif (tab_count == 1 and not content.startswith("-")) or \
-                 (tab_count == 2 and content.startswith("-")):
+            elif (tab_count == 1 and not content.startswith("-")) or (
+                tab_count == 2 and content.startswith("-")
+            ):
                 name = content.lstrip("- ").strip()
                 if last_sec is not None:
                     last_sec["subsections"].append({"name": name, "courses": []})
@@ -67,7 +71,7 @@ def parse_core_struct_data(file_name) -> dict:
                         target_list = last_sec["subsections"][-1]["courses"]
                     else:
                         target_list = last_sec["courses"]
-                    
+
                     target_list.append({"code": code, "name": course_full})
 
     # Save to JSON
@@ -78,8 +82,8 @@ def parse_core_struct_data(file_name) -> dict:
 
 
 def main():
-    OG_FILE_NAME = "./data/core_struct_data.txt"
-    CLEANED_FILE_NAME = "./data/cleaned_core_struct_data.txt"
+    OG_FILE_NAME = CORE_STRUCT_DATA_PATH
+    CLEANED_FILE_NAME = "../data/cleaned_core_struct_data.txt"
 
     sanitize(OG_FILE_NAME, CLEANED_FILE_NAME)
 
