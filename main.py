@@ -119,10 +119,11 @@ def main():
             with cols[0]:
                 st.metric(
                     label="Status",
-                    value=f"{int(earned)} hrs",
+                    value=f"{int(earned)} / {int(s_max)} hrs",
                     delta=status,
                     delta_color=color
                 )
+                st.markdown(f"**Minimum Required Credits: {int(s_min)} hrs**")
             
             with cols[1]:
                 # Show courses contributing to this section
