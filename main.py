@@ -12,134 +12,141 @@ def load_core_data(file_path):
 
 def calculate_progress(registered_codes_and_grades, core_df):
     """
-    Optimized progress calculation using vectorization.
+    Returns dictionaries for completed credits, IP credits, and a list of IP codes.
     """
-    # If no data is uploaded yet, return empty results
     if not registered_codes_and_grades or not registered_codes_and_grades[0]:
-        return {}
+        return {}, {}, []
 
     codes, grades = registered_codes_and_grades
-
-    # Filter core data to only courses that the student has registered for
-    # AND ensure they have a grade (filtering out empty/NaN grades)
-    completed_codes = [code for code, grade in zip(codes, grades) if pd.notnull(grade) and str(grade).strip() != ""]
     
-    completed_courses_df = core_df[core_df["course_code"].isin(completed_codes)]
+    completed_codes = []
+    ip_codes = []
 
-    # Group by sections to get total credits per section
-    section_totals = completed_courses_df.groupby("sections")["credits"].sum().to_dict()
+    for code, grade in zip(codes, grades):
+        # Identify In-Progress: if grade is NaN or an empty string
+        if pd.isna(grade) or str(grade).strip() == "":
+            ip_codes.append(code)
+        else:
+            completed_codes.append(code)
 
-    return section_totals
+    # Calculate completed totals per section
+    completed_df = core_df[core_df["course_code"].isin(completed_codes)]
+    comp_totals = completed_df.groupby("sections")["credits"].sum().to_dict()
+
+    # Calculate IP totals per section
+    ip_df = core_df[core_df["course_code"].isin(ip_codes)]
+    ip_totals = ip_df.groupby("sections")["credits"].sum().to_dict()
+
+    return comp_totals, ip_totals, ip_codes
 
 def main():
     st.set_page_config(page_title="Core Program Progress Tracker", layout="wide")
     st.title("🎓 Core Program Progress Tracker")
 
-    # Load data - Ensure this file exists in your directory
+    # Load data
     core_struct_df = load_core_data("./data/core_program_dataframe.csv")
-    
-    if core_struct_df.empty:
+    if core_struct_df.empty: 
         st.stop()
 
     # Sidebar for transcript upload
     with st.sidebar:
         st.header("Academic Progress Upload")
-        file_uploaded = st.file_uploader(
-            "Upload Transcript (CSV or XLSX)", type=["csv", "xlsx"]
-        )
+        file_uploaded = st.file_uploader("Upload Transcript (CSV or XLSX)", type=["csv", "xlsx"])
 
     registered_codes_and_grades = ([], [])
-    
     if file_uploaded:
         if file_uploaded.name.endswith(".csv"):
             main_df = pd.read_csv(file_uploaded)
         else:
             main_df = pd.read_excel(file_uploaded)
-
+            
         if "Registration" in main_df.columns and "Grade" in main_df.columns:
-            # Extract code (e.g., "CORE 100" from "CORE 100 - Community...")
             codes = main_df["Registration"].str.split(" - ").str[0].str.strip().tolist()
             grades = main_df["Grade"].tolist()
             registered_codes_and_grades = (codes, grades)
         else:
-            st.error("Uploaded file must contain 'Registration' and 'Grade' columns.")
-    else:
-        st.info("Please upload a progress report to see your progress.")
+            st.error("Missing 'Registration' or 'Grade' columns.")
 
-    # --- KNOWLEDGE AND UNDERSTANDING (K&U) LOGIC ---
-    ku_mask = core_struct_df["categories"] == "KNOWLEDGE AND UNDERSTANDING"
-    ku_df = core_struct_df[ku_mask]
+    # --- LOGIC ---
+    # Filter for K&U category
+    ku_df = core_struct_df[core_struct_df["categories"] == "KNOWLEDGE AND UNDERSTANDING"]
+    ku_requirements = ku_df[["sections", "section_credit_min", "section_credit_max"]].drop_duplicates()
 
-    # Get unique K&U sections and their requirements
-    ku_requirements = ku_df[
-        ["sections", "section_credit_min", "section_credit_max"]
-    ].drop_duplicates()
+    # Get segmented data
+    comp_data, ip_data, ip_codes = calculate_progress(registered_codes_and_grades, ku_df)
 
-    # Calculate completed credits per section
-    completed_section_data = calculate_progress(registered_codes_and_grades, ku_df)
-
-    # Display Global K&U Progress
-    total_ku_credits = sum(completed_section_data.values())
+    # --- SUMMARY ---
+    total_completed = sum(comp_data.values())
+    total_ip = sum(ip_data.values())
+    projected_total = total_completed + total_ip
     TARGET_TOTAL = 26
 
     st.header("Knowledge and Understanding Summary")
-    col_total, col_prog = st.columns([1, 3])
-    with col_total:
-        st.metric("Total K&U Credits", f"{total_ku_credits} / {TARGET_TOTAL} hrs")
-    with col_prog:
-        st.write("Overall Progress")
-        progress_val = min(total_ku_credits / TARGET_TOTAL, 1.0) if TARGET_TOTAL > 0 else 0
+    
+    c1, c2, c3 = st.columns([1, 1, 2])
+    c1.metric("Completed Credits", f"{total_completed} hrs")
+    # Show IP as a 'delta' to highlight projected growth
+    c2.metric("Projected Total", f"{projected_total} hrs", delta=f"{total_ip} credits In-Progress")
+    
+    with c3:
+        st.write("Projected Degree Progress")
+        progress_val = min(projected_total / TARGET_TOTAL, 1.0) if TARGET_TOTAL > 0 else 0
         st.progress(progress_val)
 
     st.divider()
 
-    # --- INDIVIDUAL SECTION METRICS ---
-    st.subheader("Section Breakdown")
-
+    # --- SECTION BREAKDOWN ---
+    st.subheader("Section Breakdown (Including In-Progress)")
     for _, row in ku_requirements.iterrows():
-        section_name = row["sections"]
-        earned = completed_section_data.get(section_name, 0)
+        name = row["sections"]
         s_min = row["section_credit_min"]
         s_max = row["section_credit_max"]
-
-        # Logic for status
-        if earned >= s_min and earned > 0:
-            status = "✅ Met" if earned <= s_max else "⚠️ Max Reached"
+        
+        earned = comp_data.get(name, 0)
+        pending = ip_data.get(name, 0)
+        combined = earned + pending
+        
+        # Color Logic based on projected success (Combined credits)
+        if combined >= s_min:
+            status = "✅ Met (Projected)" if combined <= s_max else "⚠️ Max Reached"
             color = "normal"
-        elif s_min == 0:
-            status = "Optional"
-            color = "off"
         else:
-            status = f"Need {int(s_min - earned)} more"
+            status = f"Need {int(s_min - combined)} more"
             color = "inverse"
 
-        with st.expander(label=f"{section_name} ({int(earned)}/{int(s_max)} hrs)", expanded=False):
-            cols = st.columns([1, 3])
+        # Expandable section details
+        with st.expander(f"{name} | {int(combined)}/{int(s_max)} hrs :blue-badge[:material/star: Min: {int(s_min)}]"):
+            col_met, col_details = st.columns([1, 3])
             
-            with cols[0]:
-                st.metric(
-                    label="Status",
-                    value=f"{int(earned)} / {int(s_max)} hrs",
-                    delta=status,
-                    delta_color=color
-                )
-                st.markdown(f"**Minimum Required Credits: {int(s_min)} hrs**")
+            col_met.metric(
+                label="Combined Status", 
+                value=f"{int(combined)} / {int(s_max)} hrs", 
+                delta=status, 
+                delta_color=color
+            )
             
-            with cols[1]:
-                # Show courses contributing to this section
-                courses_in_section = ku_df[ku_df["sections"] == section_name]
-                completed_codes = registered_codes_and_grades[0]
+            with col_details:
+                section_courses = ku_df[ku_df["sections"] == name]
                 
-                # Check which courses from the master list are in the student's upload
-                mask = courses_in_section["course_code"].isin(completed_codes)
-                completed_courses = courses_in_section[mask]
+                # Show Completed Courses
+                comp_mask = section_courses["course_code"].isin(registered_codes_and_grades[0]) & \
+                            ~section_courses["course_code"].isin(ip_codes)
+                comp_list = section_courses[comp_mask]
+                
+                if not comp_list.empty:
+                    st.markdown("**Eligible Completed Courses:**")
+                    for _, c in comp_list.iterrows():
+                        st.success(f"{c['course_code']} ({c['credits']} hrs)")
 
-                if not completed_courses.empty:
-                    st.markdown("**Completed Courses:**")
-                    for _, course in completed_courses.iterrows():
-                        st.success(f"**{course['course_code']}**: {course['credits']} hrs")
-                else:
-                    st.info("No completed courses in this section yet.")
+                # Show In Progress Courses
+                ip_list = section_courses[section_courses["course_code"].isin(ip_codes)]
+                if not ip_list.empty:
+                    st.markdown("**Current In-Progress Courses:**")
+                    for _, c in ip_list.iterrows():
+                        st.warning(f"🕒 {c['course_code']} ({c['credits']} hrs)")
+                
+                if comp_list.empty and ip_list.empty:
+                    st.info("No courses registered in this section.")
 
 if __name__ == "__main__":
     main()
