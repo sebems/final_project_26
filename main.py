@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 
+
 # 1. OPTIMIZATION: Cache data loading
 @st.cache_data
 def load_core_data(file_path):
@@ -10,6 +11,7 @@ def load_core_data(file_path):
         st.error(f"Core data file not found at {file_path}")
         return pd.DataFrame()
 
+
 def calculate_progress(registered_codes_and_grades, core_df):
     """
     Returns dictionaries for completed credits, IP credits, and a list of IP codes.
@@ -18,8 +20,9 @@ def calculate_progress(registered_codes_and_grades, core_df):
         return {}, {}, []
 
     codes, grades = registered_codes_and_grades
-    
+
     completed_codes = []
+    overrides_codes = []
     ip_codes = []
 
     for code, grade in zip(codes, grades):
@@ -31,6 +34,11 @@ def calculate_progress(registered_codes_and_grades, core_df):
 
     # Calculate completed totals per section
     completed_df = core_df[core_df["course_code"].isin(completed_codes)]
+
+    # TODO: Get Co-Requisites course from Corequisite(s): (Rendered no HTML) in Catalog Draft 26-27
+
+    # TODO: Factor in course Overrides which are usually courses that don't appear in the core_program_dataframe.csv but still have a core section
+
     comp_totals = completed_df.groupby("sections")["credits"].sum().to_dict()
 
     # Calculate IP totals per section
@@ -39,19 +47,22 @@ def calculate_progress(registered_codes_and_grades, core_df):
 
     return comp_totals, ip_totals, ip_codes
 
+
 def main():
     st.set_page_config(page_title="Core Program Progress Tracker", layout="wide")
     st.title("🎓 Core Program Progress Tracker")
 
     # Load data
     core_struct_df = load_core_data("./data/core_program_dataframe.csv")
-    if core_struct_df.empty: 
+    if core_struct_df.empty:
         st.stop()
 
     # Sidebar for transcript upload
     with st.sidebar:
         st.header("Academic Progress Upload")
-        file_uploaded = st.file_uploader("Upload Transcript (CSV or XLSX)", type=["csv", "xlsx"])
+        file_uploaded = st.file_uploader(
+            "Upload Transcript (CSV or XLSX)", type=["csv", "xlsx"]
+        )
 
     registered_codes_and_grades = ([], [])
     if file_uploaded:
@@ -59,7 +70,7 @@ def main():
             main_df = pd.read_csv(file_uploaded)
         else:
             main_df = pd.read_excel(file_uploaded)
-            
+
         if "Registration" in main_df.columns and "Grade" in main_df.columns:
             codes = main_df["Registration"].str.split(" - ").str[0].str.strip().tolist()
             grades = main_df["Grade"].tolist()
@@ -69,11 +80,17 @@ def main():
 
     # --- LOGIC ---
     # Filter for K&U category
-    ku_df = core_struct_df[core_struct_df["categories"] == "KNOWLEDGE AND UNDERSTANDING"]
-    ku_requirements = ku_df[["sections", "section_credit_min", "section_credit_max"]].drop_duplicates()
+    ku_df = core_struct_df[
+        core_struct_df["categories"] == "KNOWLEDGE AND UNDERSTANDING"
+    ]
+    ku_requirements = ku_df[
+        ["sections", "section_credit_min", "section_credit_max"]
+    ].drop_duplicates()
 
     # Get segmented data
-    comp_data, ip_data, ip_codes = calculate_progress(registered_codes_and_grades, ku_df)
+    comp_data, ip_data, ip_codes = calculate_progress(
+        registered_codes_and_grades, ku_df
+    )
 
     # --- SUMMARY ---
     total_completed = sum(comp_data.values())
@@ -82,15 +99,21 @@ def main():
     TARGET_TOTAL = 26
 
     st.header("Knowledge and Understanding Summary")
-    
+
     c1, c2, c3 = st.columns([1, 1, 2])
     c1.metric("Completed Credits", f"{total_completed} hrs")
     # Show IP as a 'delta' to highlight projected growth
-    c2.metric("Projected Total", f"{projected_total} hrs", delta=f"{total_ip} credits In-Progress")
-    
+    c2.metric(
+        "Projected Total",
+        f"{projected_total} hrs",
+        delta=f"{total_ip} credits In-Progress",
+    )
+
     with c3:
         st.write("Projected Degree Progress")
-        progress_val = min(projected_total / TARGET_TOTAL, 1.0) if TARGET_TOTAL > 0 else 0
+        progress_val = (
+            min(projected_total / TARGET_TOTAL, 1.0) if TARGET_TOTAL > 0 else 0
+        )
         st.progress(progress_val)
 
     st.divider()
@@ -101,38 +124,46 @@ def main():
         name = row["sections"]
         s_min = row["section_credit_min"]
         s_max = row["section_credit_max"]
-        
+
         earned = comp_data.get(name, 0)
         pending = ip_data.get(name, 0)
         combined = earned + pending
-        
+
         # Color Logic based on projected success (Combined credits)
-        if combined >= s_min:
-            status = "✅ Met (Projected)" if combined <= s_max else "⚠️ Max Reached"
-            color = "normal"
+        if (combined >= s_min) and (pending == 0):
+            if combined == 0:  # check if the section is optional
+                status = "Optional"
+                color = "off"
+            else:
+                status = "Met" if combined <= s_max else "⚠️ Max Reached"
+                color = "normal"
+        elif (combined >= s_min) and (pending > 0):
+            status = "⚠️ Projected"
+            color = "yellow"
         else:
             status = f"Need {int(s_min - combined)} more"
             color = "inverse"
 
         # Expandable section details
-        with st.expander(f"{name} | {int(combined)}/{int(s_max)} hrs :blue-badge[:material/star: Min: {int(s_min)}]"):
+        with st.expander(f"{name} :blue-badge[:material/star: Min: {int(s_min)}]"):
             col_met, col_details = st.columns([1, 3])
-            
+
             col_met.metric(
-                label="Combined Status", 
-                value=f"{int(combined)} / {int(s_max)} hrs", 
-                delta=status, 
-                delta_color=color
+                label="Completed + In Progress",
+                value=f"{int(combined)} / {int(s_max)} hrs",
+                delta=status,
+                delta_color=color,
             )
-            
+
             with col_details:
                 section_courses = ku_df[ku_df["sections"] == name]
-                
+
                 # Show Completed Courses
-                comp_mask = section_courses["course_code"].isin(registered_codes_and_grades[0]) & \
-                            ~section_courses["course_code"].isin(ip_codes)
+                comp_mask = section_courses["course_code"].isin(
+                    registered_codes_and_grades[0]
+                ) & ~section_courses["course_code"].isin(ip_codes)
                 comp_list = section_courses[comp_mask]
-                
+
                 if not comp_list.empty:
                     st.markdown("**Eligible Completed Courses:**")
                     for _, c in comp_list.iterrows():
@@ -144,9 +175,10 @@ def main():
                     st.markdown("**Current In-Progress Courses:**")
                     for _, c in ip_list.iterrows():
                         st.warning(f"🕒 {c['course_code']} ({c['credits']} hrs)")
-                
+
                 if comp_list.empty and ip_list.empty:
                     st.info("No courses registered in this section.")
+
 
 if __name__ == "__main__":
     main()
