@@ -10,9 +10,16 @@ def load_core_data(file_path):
     except FileNotFoundError:
         st.error(f"Core data file not found at {file_path}")
         return pd.DataFrame()
+    
+@st.cache_data
+def load_catalog_data(file_path):
+    try:
+        return pd.read_csv(file_path)
+    except FileNotFoundError:
+        st.error(f"Catalog data file not found at {file_path}")
+        return pd.DataFrame()
 
-
-def calculate_progress(registered_codes_and_grades, core_df):
+def calculate_progress(registered_codes_and_grades, core_df, catalog_df):
     """
     Returns dictionaries for completed credits, IP credits, and a list of IP codes.
     """
@@ -22,7 +29,6 @@ def calculate_progress(registered_codes_and_grades, core_df):
     codes, grades = registered_codes_and_grades
 
     completed_codes = []
-    overrides_codes = []
     ip_codes = []
 
     for code, grade in zip(codes, grades):
@@ -35,9 +41,7 @@ def calculate_progress(registered_codes_and_grades, core_df):
     # Calculate completed totals per section
     completed_df = core_df[core_df["course_code"].isin(completed_codes)]
 
-    # TODO: Get Co-Requisites course from Corequisite(s): (Rendered no HTML) in Catalog Draft 26-27
-
-    # TODO: Factor in course Overrides which are usually courses that don't appear in the core_program_dataframe.csv but still have a core section
+    completed_codes = completed_df["course_code"].tolist()  # Update completed codes based on actual matches
 
     comp_totals = completed_df.groupby("sections")["credits"].sum().to_dict()
 
@@ -45,16 +49,30 @@ def calculate_progress(registered_codes_and_grades, core_df):
     ip_df = core_df[core_df["course_code"].isin(ip_codes)]
     ip_totals = ip_df.groupby("sections")["credits"].sum().to_dict()
 
-    return comp_totals, ip_totals, ip_codes
+    # Get co-reqs and overrides for IP courses (if needed for future logic)
+    remaining_codes = list(set(codes) - set(completed_codes) - set(ip_codes))    # Debug: Show matched completed codes
+    rem_code_credits = [] # Debug: Store credits for unmatched codes
+
+    # TODO: add remaining credits to comp_totals or ip_totals based on the presence of grades
+
+    # Differentiate between overrides and co-reqs (may not be needed for current logic, but useful for future enhancements)
+    override_codes = []     
+    coreq_codes = []        
+
+    return comp_totals, ip_totals, ip_codes, remaining_codes
 
 
 def main():
     st.set_page_config(page_title="Core Program Progress Tracker", layout="wide")
     st.title("🎓 Core Program Progress Tracker")
 
-    # Load data
+    # Load Core and Catalog data
     core_struct_df = load_core_data("./data/core_program_dataframe.csv")
     if core_struct_df.empty:
+        st.stop()
+
+    catalog_df = load_catalog_data("./data/Catalog Draft 26-27.csv")
+    if catalog_df.empty:
         st.stop()
 
     # Sidebar for transcript upload
@@ -88,9 +106,11 @@ def main():
     ].drop_duplicates()
 
     # Get segmented data
-    comp_data, ip_data, ip_codes = calculate_progress(
-        registered_codes_and_grades, ku_df
+    comp_data, ip_data, ip_codes, rem_codes = calculate_progress(
+        registered_codes_and_grades, ku_df, catalog_df
     )
+
+    # calculate_overrides_and_coreqs(registered_codes_and_grades, catalog_df)
 
     # --- SUMMARY ---
     total_completed = sum(comp_data.values())
