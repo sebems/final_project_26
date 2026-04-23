@@ -118,11 +118,19 @@ def main():
     # Filter out NaN/Null courses from the master core structure before displaying[cite: 2]
     core_struct_df = core_struct_df[core_struct_df["course_code"].notna()]
 
+    if "all_expanded" not in st.session_state:
+        st.session_state.all_expanded = False
+
     with st.sidebar:
         st.header("Academic Progress Upload")
         file_uploaded = st.file_uploader(
             "Upload Transcript (CSV or XLSX)", type=["csv", "xlsx"]
         )
+
+        st.divider()
+
+        if st.button("**Expand Sections**", type="primary"):
+            st.session_state.all_expanded = not st.session_state.all_expanded
 
     registrations_df = pd.DataFrame(
         {"code": [], "grade": [], "section": [], "credits": []}
@@ -224,10 +232,13 @@ def main():
         else:
             status, color = f"Need {s_min - combined:g} more", "inverse"
 
-        with st.expander(f"{name} :blue-badge[:material/star: Min: {s_min:g}]"):
+        with st.expander(
+            f"{name} :blue-badge[:material/star: Min: {s_min:g}]",
+            expanded=st.session_state.all_expanded,
+        ):
             col_met, col_details = st.columns([1, 3])
             col_met.metric(
-                label="Total Projected",
+                label="Completed + In-Progress",
                 value=f"{combined:g} / {s_max:g} hrs",
                 delta=status,
                 delta_color=color,
