@@ -1,103 +1,173 @@
+import re
 import pandas as pd
 import streamlit as st
 
+# --- DATA LOADING ---
 
-# 1. OPTIMIZATION: Cache data loading
+
 @st.cache_data
-def load_core_data(file_path):
+def load_core_data(file_path: str) -> pd.DataFrame:
+    """
+    Loads and caches the core program requirements.
+    Caches the data to ensure the UI remains responsive during re-runs.[cite: 2]
+    """
     try:
         return pd.read_csv(file_path)
     except FileNotFoundError:
         st.error(f"Core data file not found at {file_path}")
         return pd.DataFrame()
-    
-@st.cache_data
-def load_catalog_data(file_path):
-    try:
-        return pd.read_csv(file_path)
-    except FileNotFoundError:
-        st.error(f"Catalog data file not found at {file_path}")
-        return pd.DataFrame()
 
-def calculate_progress(registered_codes_and_grades, core_df, catalog_df):
+
+# --- LOGIC ENGINE ---
+
+
+def calculate_progress(
+    registered_courses: pd.DataFrame,
+    core_df: pd.DataFrame,
+):
     """
-    Returns dictionaries for completed credits, IP credits, and a list of IP codes.
+    Analyzes student transcript against core requirements.
+    Filters out NaN values and organizes credits into categorical totals.[cite: 2]
     """
-    if not registered_codes_and_grades or not registered_codes_and_grades[0]:
-        return {}, {}, []
+    if registered_courses.empty:
+        return {}, {}, [], {}, {}
 
-    codes, grades = registered_codes_and_grades
+    # 1. STANDARDIZATION & CLEANING
+    # Drop rows where course code is NaN to avoid processing 'ghost' entries[cite: 2]
+    registered_courses = registered_courses.dropna(subset=["code"])
 
-    completed_codes = []
+    core_df["course_code"] = core_df["course_code"].astype(str).str.strip().str.upper()
+    registered_courses["code"] = (
+        registered_courses["code"].astype(str).str.strip().str.upper()
+    )
+
+    # Create lookup map for core requirements
+    core_lookup = (
+        core_df.drop_duplicates(subset=["course_code"])
+        .set_index("course_code")
+        .to_dict("index")
+    )
+    valid_sections = core_df["sections"].unique()
+
+    comp_totals, ip_totals, rem_totals = {}, {}, {}
+    rem_course_details = {}
     ip_codes = []
 
-    for code, grade in zip(codes, grades):
-        # Identify In-Progress: if grade is NaN or an empty string
-        if pd.isna(grade) or str(grade).strip() == "":
-            ip_codes.append(code)
+    # 2. PROCESSING LOOP
+    for _, row in registered_courses.iterrows():
+        code = row["code"]
+        if code == "NAN" or not code:
+            continue
+
+        grade = row["grade"]
+        raw_sec_list = row["section"]
+        credit_val = float(row["credits"])
+
+        is_completed = not (pd.isna(grade) or str(grade).strip() == "")
+
+        section_name = (
+            raw_sec_list[0]
+            if isinstance(raw_sec_list, list) and raw_sec_list
+            else str(raw_sec_list)
+        )
+
+        if code in core_lookup:
+            section = core_lookup[code]["sections"]
+            if is_completed:
+                comp_totals[section] = comp_totals.get(section, 0.0) + credit_val
+            else:
+                ip_totals[section] = ip_totals.get(section, 0.0) + credit_val
+                ip_codes.append(code)
         else:
-            completed_codes.append(code)
+            # Fuzzy match for credits not explicitly in the Core CSV[cite: 2]
+            matched_section = "Unassigned"
+            for valid in valid_sections:
+                if (
+                    section_name.strip().lower() in valid.lower()
+                    or valid.lower() in section_name.strip().lower()
+                ):
+                    matched_section = valid
+                    break
 
-    # Calculate completed totals per section
-    completed_df = core_df[core_df["course_code"].isin(completed_codes)]
+            rem_totals[matched_section] = (
+                rem_totals.get(matched_section, 0.0) + credit_val
+            )
+            if matched_section not in rem_course_details:
+                rem_course_details[matched_section] = []
 
-    completed_codes = completed_df["course_code"].tolist()  # Update completed codes based on actual matches
+            # Store code and credit for UI display[cite: 2]
+            rem_course_details[matched_section].append(
+                {"code": code, "credits": credit_val}
+            )
 
-    comp_totals = completed_df.groupby("sections")["credits"].sum().to_dict()
+    return comp_totals, ip_totals, ip_codes, rem_totals, rem_course_details
 
-    # Calculate IP totals per section
-    ip_df = core_df[core_df["course_code"].isin(ip_codes)]
-    ip_totals = ip_df.groupby("sections")["credits"].sum().to_dict()
 
-    # Get co-reqs and overrides for IP courses (if needed for future logic)
-    remaining_codes = list(set(codes) - set(completed_codes) - set(ip_codes))    # Debug: Show matched completed codes
-    rem_code_credits = [] # Debug: Store credits for unmatched codes
-
-    # TODO: add remaining credits to comp_totals or ip_totals based on the presence of grades
-
-    # Differentiate between overrides and co-reqs (may not be needed for current logic, but useful for future enhancements)
-    override_codes = []     
-    coreq_codes = []        
-
-    return comp_totals, ip_totals, ip_codes, remaining_codes
+# --- UI LAYER ---
 
 
 def main():
     st.set_page_config(page_title="Core Program Progress Tracker", layout="wide")
     st.title("🎓 Core Program Progress Tracker")
 
-    # Load Core and Catalog data
+    # Load Core Structure
     core_struct_df = load_core_data("./data/core_program_dataframe.csv")
     if core_struct_df.empty:
         st.stop()
 
-    catalog_df = load_catalog_data("./data/Catalog Draft 26-27.csv")
-    if catalog_df.empty:
-        st.stop()
+    # Filter out NaN/Null courses from the master core structure before displaying[cite: 2]
+    core_struct_df = core_struct_df[core_struct_df["course_code"].notna()]
 
-    # Sidebar for transcript upload
     with st.sidebar:
         st.header("Academic Progress Upload")
         file_uploaded = st.file_uploader(
             "Upload Transcript (CSV or XLSX)", type=["csv", "xlsx"]
         )
 
-    registered_codes_and_grades = ([], [])
-    if file_uploaded:
-        if file_uploaded.name.endswith(".csv"):
-            main_df = pd.read_csv(file_uploaded)
-        else:
-            main_df = pd.read_excel(file_uploaded)
+    registrations_df = pd.DataFrame(
+        {"code": [], "grade": [], "section": [], "credits": []}
+    )
 
-        if "Registration" in main_df.columns and "Grade" in main_df.columns:
+    if file_uploaded:
+        main_df = (
+            pd.read_csv(file_uploaded)
+            if file_uploaded.name.endswith(".csv")
+            else pd.read_excel(file_uploaded)
+        )
+
+        required_cols = [
+            "Registration",
+            "Grade",
+            "Registration Hours",
+            "Eligibility Rules",
+        ]
+        if all(col in main_df.columns for col in required_cols):
+            # Transcript Parsing[cite: 2]
             codes = main_df["Registration"].str.split(" - ").str[0].str.strip().tolist()
             grades = main_df["Grade"].tolist()
-            registered_codes_and_grades = (codes, grades)
-        else:
-            st.error("Missing 'Registration' or 'Grade' columns.")
+            credits_list = (
+                pd.to_numeric(main_df["Registration Hours"], errors="coerce")
+                .fillna(0)
+                .tolist()
+            )
+            sections = (
+                main_df["Eligibility Rules"]
+                .apply(lambda rule: re.findall(r"-\s+(.*?),\s+\d+", str(rule)))
+                .to_list()
+            )
 
-    # --- LOGIC ---
-    # Filter for K&U category
+            registrations_df = pd.DataFrame(
+                {
+                    "code": codes,
+                    "grade": grades,
+                    "section": sections,
+                    "credits": credits_list,
+                }
+            )
+        else:
+            st.error(f"Missing required columns: {', '.join(required_cols)}")
+
+    # Knowledge and Understanding Filter[cite: 2]
     ku_df = core_struct_df[
         core_struct_df["categories"] == "KNOWLEDGE AND UNDERSTANDING"
     ]
@@ -105,72 +175,60 @@ def main():
         ["sections", "section_credit_min", "section_credit_max"]
     ].drop_duplicates()
 
-    # Get segmented data
-    comp_data, ip_data, ip_codes, rem_codes = calculate_progress(
-        registered_codes_and_grades, ku_df, catalog_df
+    # Calculate Totals[cite: 2]
+    comp_data, ip_data, ip_codes, rem_totals, rem_course_details = calculate_progress(
+        registrations_df, ku_df
     )
 
-    # calculate_overrides_and_coreqs(registered_codes_and_grades, catalog_df)
-
-    # --- SUMMARY ---
+    # Summary Metrics[cite: 2]
     total_completed = sum(comp_data.values())
+    total_remaining = sum(rem_totals.values())
     total_ip = sum(ip_data.values())
-    projected_total = total_completed + total_ip
-    TARGET_TOTAL = 26
+    projected_total = total_completed + total_ip + total_remaining
+    TARGET_TOTAL = 26.0
 
     st.header("Knowledge and Understanding Summary")
-
     c1, c2, c3 = st.columns([1, 1, 2])
-    c1.metric("Completed Credits", f"{total_completed} hrs")
-    # Show IP as a 'delta' to highlight projected growth
+    c1.metric("Completed/Reg Credits", f"{total_completed + total_remaining:g} hrs")
     c2.metric(
         "Projected Total",
-        f"{projected_total} hrs",
-        delta=f"{total_ip} credits In-Progress",
+        f"{projected_total:g} hrs",
+        delta=f"{total_ip:g} hrs In-Progress",
     )
-
     with c3:
         st.write("Projected Degree Progress")
-        progress_val = (
-            min(projected_total / TARGET_TOTAL, 1.0) if TARGET_TOTAL > 0 else 0
-        )
-        st.progress(progress_val)
+        st.progress(min(projected_total / TARGET_TOTAL, 1.0) if TARGET_TOTAL > 0 else 0)
 
     st.divider()
 
-    # --- SECTION BREAKDOWN ---
-    st.subheader("Section Breakdown (Including In-Progress)")
+    # --- SECTION BREAKDOWN UI ---
+    st.subheader("Section Breakdown (Including In-Progress & Remaining)")
+
     for _, row in ku_requirements.iterrows():
         name = row["sections"]
-        s_min = row["section_credit_min"]
-        s_max = row["section_credit_max"]
+        s_min, s_max = float(row["section_credit_min"]), float(
+            row["section_credit_max"]
+        )
+        earned, remaining, pending = (
+            comp_data.get(name, 0),
+            rem_totals.get(name, 0),
+            ip_data.get(name, 0),
+        )
+        combined = earned + remaining + pending
 
-        earned = comp_data.get(name, 0)
-        pending = ip_data.get(name, 0)
-        combined = earned + pending
-
-        # Color Logic based on projected success (Combined credits)
+        # Badge Logic[cite: 2]
         if (combined >= s_min) and (pending == 0):
-            if combined == 0:  # check if the section is optional
-                status = "Optional"
-                color = "off"
-            else:
-                status = "Met" if combined <= s_max else "⚠️ Max Reached"
-                color = "normal"
+            status, color = ("Met", "normal") if combined > 0 else ("Optional", "off")
         elif (combined >= s_min) and (pending > 0):
-            status = "⚠️ Projected"
-            color = "yellow"
+            status, color = "⚠️ Projected", "yellow"
         else:
-            status = f"Need {int(s_min - combined)} more"
-            color = "inverse"
+            status, color = f"Need {s_min - combined:g} more", "inverse"
 
-        # Expandable section details
-        with st.expander(f"{name} :blue-badge[:material/star: Min: {int(s_min)}]"):
+        with st.expander(f"{name} :blue-badge[:material/star: Min: {s_min:g}]"):
             col_met, col_details = st.columns([1, 3])
-
             col_met.metric(
-                label="Completed + In Progress",
-                value=f"{int(combined)} / {int(s_max)} hrs",
+                label="Total Projected",
+                value=f"{combined:g} / {s_max:g} hrs",
                 delta=status,
                 delta_color=color,
             )
@@ -178,25 +236,42 @@ def main():
             with col_details:
                 section_courses = ku_df[ku_df["sections"] == name]
 
-                # Show Completed Courses
+                # 1. Completed Subheader & List[cite: 2]
                 comp_mask = section_courses["course_code"].isin(
-                    registered_codes_and_grades[0]
+                    registrations_df["code"]
                 ) & ~section_courses["course_code"].isin(ip_codes)
-                comp_list = section_courses[comp_mask]
+                if any(comp_mask):
+                    st.markdown("**Completed Courses:**")
+                    for _, c in section_courses[comp_mask].iterrows():
+                        trans_cred = registrations_df.loc[
+                            registrations_df["code"] == c["course_code"], "credits"
+                        ].values
+                        cred_to_show = trans_cred[0] if len(trans_cred) > 0 else 0
+                        st.success(f"✅ **{c['course_code']}** ({cred_to_show:g} hrs)")
 
-                if not comp_list.empty:
-                    st.markdown("**Eligible Completed Courses:**")
-                    for _, c in comp_list.iterrows():
-                        st.success(f"{c['course_code']} ({c['credits']} hrs)")
+                # 2. Registered / Remaining Subheader & List[cite: 2]
+                if name in rem_course_details:
+                    st.markdown("**Overrides / Co-Requisites:**")
+                    for item in rem_course_details[name]:
+                        if pd.notna(item["code"]) and item["code"] != "NAN":
+                            st.info(f"📖 **{item['code']}** ({item['credits']:g} hrs)")
 
-                # Show In Progress Courses
+                # 3. In Progress Subheader & List[cite: 2]
                 ip_list = section_courses[section_courses["course_code"].isin(ip_codes)]
                 if not ip_list.empty:
-                    st.markdown("**Current In-Progress Courses:**")
+                    st.markdown("**In-Progress Courses:**")
                     for _, c in ip_list.iterrows():
-                        st.warning(f"🕒 {c['course_code']} ({c['credits']} hrs)")
+                        trans_cred = registrations_df.loc[
+                            registrations_df["code"] == c["course_code"], "credits"
+                        ].values
+                        cred_to_show = trans_cred[0] if len(trans_cred) > 0 else 0
+                        st.warning(f"🕒 **{c['course_code']}** ({cred_to_show:g} hrs)")
 
-                if comp_list.empty and ip_list.empty:
+                if (
+                    not any(comp_mask)
+                    and name not in rem_course_details
+                    and ip_list.empty
+                ):
                     st.info("No courses registered in this section.")
 
 
