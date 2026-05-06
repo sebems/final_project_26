@@ -9,7 +9,7 @@ import streamlit as st
 def load_core_data(file_path: str) -> pd.DataFrame:
     """
     Loads and caches the core program requirements.
-    Caches the data to ensure the UI remains responsive during re-runs.[cite: 2]
+    Caches the data to ensure the UI remains responsive during re-runs.
     """
     try:
         return pd.read_csv(file_path)
@@ -27,21 +27,18 @@ def calculate_progress(
 ):
     """
     Analyzes student transcript against core requirements.
-    Filters out NaN values and organizes credits into categorical totals.[cite: 2]
+    Filters out NaN values and organizes credits into categorical totals.
     """
     if registered_courses.empty:
         return {}, {}, [], {}, {}
 
     # 1. STANDARDIZATION & CLEANING
-    # Drop rows where course code is NaN to avoid processing 'ghost' entries[cite: 2]
     registered_courses = registered_courses.dropna(subset=["code"])
-
     core_df["course_code"] = core_df["course_code"].astype(str).str.strip().str.upper()
     registered_courses["code"] = (
         registered_courses["code"].astype(str).str.strip().str.upper()
     )
 
-    # Create lookup map for core requirements
     core_lookup = (
         core_df.drop_duplicates(subset=["course_code"])
         .set_index("course_code")
@@ -79,7 +76,7 @@ def calculate_progress(
                 ip_totals[section] = ip_totals.get(section, 0.0) + credit_val
                 ip_codes.append(code)
         else:
-            # Fuzzy match for credits not explicitly in the Core CSV[cite: 2]
+            # Fuzzy match for credits not explicitly in the Core CSV
             matched_section = "Unassigned"
             for valid in valid_sections:
                 if (
@@ -95,12 +92,19 @@ def calculate_progress(
             if matched_section not in rem_course_details:
                 rem_course_details[matched_section] = []
 
-            # Store code and credit for UI display[cite: 2]
             rem_course_details[matched_section].append(
                 {"code": code, "credits": credit_val}
             )
 
     return comp_totals, ip_totals, ip_codes, rem_totals, rem_course_details
+
+
+# --- HELPER FUNCTION ---
+def is_transfer_or_ap(grade_val) -> bool:
+    """Evaluates if a grade denotes a transfer or AP credit."""
+    grade_str = str(grade_val).strip().upper()
+    # Matches common transfer notation (T, TA, TB, TR, CR, AP)
+    return grade_str.startswith("T") or grade_str in ["CR", "AP"]
 
 
 # --- UI LAYER ---
@@ -115,7 +119,6 @@ def main():
     if core_struct_df.empty:
         st.stop()
 
-    # Filter out NaN/Null courses from the master core structure before displaying[cite: 2]
     core_struct_df = core_struct_df[core_struct_df["course_code"].notna()]
 
     if "all_expanded" not in st.session_state:
@@ -126,9 +129,7 @@ def main():
         file_uploaded = st.file_uploader(
             "Upload Transcript (CSV or XLSX)", type=["csv", "xlsx"]
         )
-
         st.divider()
-
         if st.button("**Expand Sections**", type="primary"):
             st.session_state.all_expanded = not st.session_state.all_expanded
 
@@ -150,7 +151,6 @@ def main():
             "Eligibility Rules",
         ]
         if all(col in main_df.columns for col in required_cols):
-            # Transcript Parsing[cite: 2]
             codes = main_df["Registration"].str.split(" - ").str[0].str.strip().tolist()
             grades = main_df["Grade"].tolist()
             credits_list = (
@@ -175,7 +175,6 @@ def main():
         else:
             st.error(f"Missing required columns: {', '.join(required_cols)}")
 
-    # Knowledge and Understanding Filter[cite: 2]
     ku_df = core_struct_df[
         core_struct_df["categories"] == "KNOWLEDGE AND UNDERSTANDING"
     ]
@@ -183,33 +182,46 @@ def main():
         ["sections", "section_credit_min", "section_credit_max"]
     ].drop_duplicates()
 
-    # Calculate Totals[cite: 2]
     comp_data, ip_data, ip_codes, rem_totals, rem_course_details = calculate_progress(
         registrations_df, ku_df
     )
 
-    # Summary Metrics[cite: 2]
-    total_completed = sum(comp_data.values())
-    total_remaining = sum(rem_totals.values())
-    total_ip = sum(ip_data.values())
-    projected_total = total_completed + total_ip + total_remaining
+    # --- ADVANCED CREDIT CAPPING LOGIC ---
+    total_completed = 0.0
+    total_ip = 0.0
+    total_remaining_adj = sum(rem_totals.values())
+
+    for _, row in ku_requirements.iterrows():
+        name = row["sections"]
+        s_max = float(row["section_credit_max"])
+
+        earned = comp_data.get(name, 0.0)
+        pending = ip_data.get(name, 0.0)
+
+        capped_earned = min(earned, s_max)
+        total_completed += capped_earned
+
+        space_left = s_max - capped_earned
+        capped_pending = min(pending, max(0.0, space_left))
+        total_ip += capped_pending
+
     TARGET_TOTAL = 26.0
+    adj_total = total_completed + min(total_ip, TARGET_TOTAL - total_completed)
 
     st.header("Knowledge and Understanding Summary")
     c1, c2, c3 = st.columns([1, 1, 2])
-    c1.metric("Completed/Reg Credits", f"{total_completed + total_remaining:g} hrs")
+    c1.metric("Completed Credits", f"{total_completed + total_remaining_adj:g} hrs")
     c2.metric(
         "Projected Total",
-        f"{projected_total:g} hrs",
+        f"{adj_total:g} hrs",
         delta=f"{total_ip:g} hrs In-Progress",
     )
     with c3:
         st.write("Projected Degree Progress")
-        st.progress(min(projected_total / TARGET_TOTAL, 1.0) if TARGET_TOTAL > 0 else 0)
+        st.progress(min(adj_total / TARGET_TOTAL, 1.0) if TARGET_TOTAL > 0 else 0)
 
     st.divider()
 
-    # --- SECTION BREAKDOWN UI ---
     st.subheader("Section Breakdown (Including In-Progress & Remaining)")
 
     for _, row in ku_requirements.iterrows():
@@ -223,14 +235,18 @@ def main():
             ip_data.get(name, 0),
         )
         combined = earned + remaining + pending
+        excess = combined - s_max if combined > s_max else 0
 
-        # Badge Logic[cite: 2]
-        if (combined >= s_min) and (pending == 0):
-            status, color = ("Met", "normal") if combined > 0 else ("Optional", "off")
-        elif (combined >= s_min) and (pending > 0):
+        combined_for_badge = min(combined, s_max)
+
+        if (combined_for_badge >= s_min) and (pending == 0):
+            status, color = (
+                ("Met", "normal") if combined_for_badge > 0 else ("Optional", "off")
+            )
+        elif (combined_for_badge >= s_min) and (pending > 0):
             status, color = "⚠️ Projected", "yellow"
         else:
-            status, color = f"Need {s_min - combined:g} more", "inverse"
+            status, color = f"Need {s_min - combined_for_badge:g} more", "inverse"
 
         with st.expander(
             f"{name} :blue-badge[:material/star: Min: {s_min:g}]",
@@ -239,35 +255,54 @@ def main():
             col_met, col_details = st.columns([1, 3])
             col_met.metric(
                 label="Completed + In-Progress",
-                value=f"{combined:g} / {s_max:g} hrs",
+                value=f"{combined_for_badge:g} / {s_max:g} hrs",
                 delta=status,
                 delta_color=color,
             )
+            if excess > 0:
+                col_met.divider()
+                col_met.write(f"***Excess Credits: {excess:g}***")
 
             with col_details:
                 section_courses = ku_df[ku_df["sections"] == name]
 
-                # 1. Completed Subheader & List[cite: 2]
                 comp_mask = section_courses["course_code"].isin(
                     registrations_df["code"]
                 ) & ~section_courses["course_code"].isin(ip_codes)
+
                 if any(comp_mask):
                     st.markdown("**Completed Courses:**")
                     for _, c in section_courses[comp_mask].iterrows():
-                        trans_cred = registrations_df.loc[
-                            registrations_df["code"] == c["course_code"], "credits"
-                        ].values
-                        cred_to_show = trans_cred[0] if len(trans_cred) > 0 else 0
-                        st.success(f"✅ **{c['course_code']}** ({cred_to_show:g} hrs)")
+                        trans_data = registrations_df.loc[
+                            registrations_df["code"] == c["course_code"]
+                        ]
+                        cred_to_show = (
+                            trans_data["credits"].values[0]
+                            if not trans_data.empty
+                            else 0
+                        )
+                        grade_val = (
+                            trans_data["grade"].values[0]
+                            if not trans_data.empty
+                            else ""
+                        )
 
-                # 2. Registered / Remaining Subheader & List[cite: 2]
+                        # Apply Transfer/AP Badge dynamically
+                        badge = (
+                            " :violet-background[Transfer / AP]"
+                            if is_transfer_or_ap(grade_val)
+                            else ""
+                        )
+                        st.success(
+                            f"✅ **{c['course_code']}** ({cred_to_show:g} hrs){badge}"
+                        )
+
                 if name in rem_course_details:
                     st.markdown("**Overrides / Co-Requisites:**")
                     for item in rem_course_details[name]:
                         if pd.notna(item["code"]) and item["code"] != "NAN":
                             st.info(f"📖 **{item['code']}** ({item['credits']:g} hrs)")
 
-                # 3. In Progress Subheader & List[cite: 2]
                 ip_list = section_courses[section_courses["course_code"].isin(ip_codes)]
                 if not ip_list.empty:
                     st.markdown("**In-Progress Courses:**")
