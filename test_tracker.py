@@ -1,7 +1,7 @@
 import unittest
 import pandas as pd
 import re
-from script import calculate_progress
+from main import calculate_progress
 
 
 class TestCoreProgressLogic(unittest.TestCase):
