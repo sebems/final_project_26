@@ -1,4 +1,4 @@
-# Test Plan
+# Proposed Test Plan
 
 Included in this directory is a test script that for the main features of this Streamlit web-app. In addition to this file, at the time of this commit, there are three test files that simulate a student's academic progress. While the script is still in early development, I've outlined some tests that I aim to address in future:
 
