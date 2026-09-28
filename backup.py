@@ -1,3 +1,4 @@
+import re
 import pandas as pd
 import streamlit as st
 
@@ -10,7 +11,8 @@ def load_core_data(file_path):
     except FileNotFoundError:
         st.error(f"Core data file not found at {file_path}")
         return pd.DataFrame()
-    
+
+
 @st.cache_data
 def load_catalog_data(file_path):
     try:
@@ -19,14 +21,23 @@ def load_catalog_data(file_path):
         st.error(f"Catalog data file not found at {file_path}")
         return pd.DataFrame()
 
-def calculate_progress(registered_codes_and_grades, core_df, catalog_df):
+
+def calculate_progress(
+    registered_courses: pd.DataFrame,
+    core_df: pd.DataFrame,
+    catalog_df: pd.DataFrame,
+):
     """
     Returns dictionaries for completed credits, IP credits, and a list of IP codes.
     """
-    if not registered_codes_and_grades or not registered_codes_and_grades[0]:
-        return {}, {}, []
 
-    codes, grades = registered_codes_and_grades
+    if registered_courses.empty:
+        return {}, {}, [], {}
+
+    codes, grades = (
+        registered_courses["code"].to_list(),
+        registered_courses["grade"].to_list(),
+    )
 
     completed_codes = []
     ip_codes = []
@@ -41,7 +52,9 @@ def calculate_progress(registered_codes_and_grades, core_df, catalog_df):
     # Calculate completed totals per section
     completed_df = core_df[core_df["course_code"].isin(completed_codes)]
 
-    completed_codes = completed_df["course_code"].tolist()  # Update completed codes based on actual matches
+    completed_codes = completed_df[
+        "course_code"
+    ].tolist()  # Update completed codes based on actual matches
 
     comp_totals = completed_df.groupby("sections")["credits"].sum().to_dict()
 
@@ -50,16 +63,33 @@ def calculate_progress(registered_codes_and_grades, core_df, catalog_df):
     ip_totals = ip_df.groupby("sections")["credits"].sum().to_dict()
 
     # Get co-reqs and overrides for IP courses (if needed for future logic)
-    remaining_codes = list(set(codes) - set(completed_codes) - set(ip_codes))    # Debug: Show matched completed codes
-    rem_code_credits = [] # Debug: Store credits for unmatched codes
+    remaining_codes = list(
+        set(codes) - set(completed_codes) - set(ip_codes)
+    )  # Debug: Show matched completed codes
+
+    catalog_df["course_code"] = catalog_df["Prefix"] + " " + catalog_df["Code"]
+    rem_totals = {}
 
     # TODO: add remaining credits to comp_totals or ip_totals based on the presence of grades
+    for code in remaining_codes:
+        rem_presence_cond = catalog_df[catalog_df["course_code"] == code].empty
+
+        if not rem_presence_cond:
+            section = registered_courses[registered_courses["code"] == code][
+                "section"
+            ].item()
+
+            credit = catalog_df[catalog_df["course_code"] == code]["Credits:"].item()
+
+            rem_totals[section[0]] = eval(credit)
+
+    st.write(comp_totals, ip_totals, rem_totals)
 
     # Differentiate between overrides and co-reqs (may not be needed for current logic, but useful for future enhancements)
-    override_codes = []     
-    coreq_codes = []        
+    override_codes = []
+    coreq_codes = []
 
-    return comp_totals, ip_totals, ip_codes, remaining_codes
+    return comp_totals, ip_totals, ip_codes, rem_totals
 
 
 def main():
@@ -82,7 +112,14 @@ def main():
             "Upload Transcript (CSV or XLSX)", type=["csv", "xlsx"]
         )
 
-    registered_codes_and_grades = ([], [])
+    registrations_df = pd.DataFrame(
+        {
+            "code": [],
+            "grade": [],
+            "section": [],
+        }
+    )
+
     if file_uploaded:
         if file_uploaded.name.endswith(".csv"):
             main_df = pd.read_csv(file_uploaded)
@@ -92,7 +129,15 @@ def main():
         if "Registration" in main_df.columns and "Grade" in main_df.columns:
             codes = main_df["Registration"].str.split(" - ").str[0].str.strip().tolist()
             grades = main_df["Grade"].tolist()
-            registered_codes_and_grades = (codes, grades)
+            section = (
+                main_df["Eligibility Rules"]
+                .apply(lambda rule: re.findall(r"-\s+(.*?),\s+\d+", rule))
+                .to_list()
+            )
+
+            registrations_df = pd.DataFrame(
+                {"code": codes, "grade": grades, "section": section}
+            )
         else:
             st.error("Missing 'Registration' or 'Grade' columns.")
 
@@ -107,13 +152,12 @@ def main():
 
     # Get segmented data
     comp_data, ip_data, ip_codes, rem_codes = calculate_progress(
-        registered_codes_and_grades, ku_df, catalog_df
+        registrations_df, ku_df, catalog_df
     )
-
-    # calculate_overrides_and_coreqs(registered_codes_and_grades, catalog_df)
 
     # --- SUMMARY ---
     total_completed = sum(comp_data.values())
+    total_completed += sum(rem_codes.values())
     total_ip = sum(ip_data.values())
     projected_total = total_completed + total_ip
     TARGET_TOTAL = 26
@@ -180,7 +224,7 @@ def main():
 
                 # Show Completed Courses
                 comp_mask = section_courses["course_code"].isin(
-                    registered_codes_and_grades[0]
+                    registrations_df["code"]
                 ) & ~section_courses["course_code"].isin(ip_codes)
                 comp_list = section_courses[comp_mask]
 
